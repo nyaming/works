@@ -1,0 +1,487 @@
+@charset "utf-8";
+/* CSS Document */
+/*********************************************************
+目次
+  02-02-01.加盟会員一覧
+  02-02-03.加盟申請フォーム
+03.信用情報について
+  03-03.同意の取得
+  03-04.他信用情報機関との情報交流
+*********************************************************/
+
+
+@media only screen and (max-width: 1024px){
+/*********************************************************
+	02-02-01.加盟会員一覧
+*********************************************************/
+#memberlist #cnt_area02 h2 {
+font-size: 16px;
+}
+/*********************************************************
+	02-02-03.加盟申請フォーム
+*********************************************************/
+#application01 #cnt_area02 h2 {
+font-size: 16px;
+}
+/*********************************************************
+	03.信用情報について
+*********************************************************/
+#credit_info #cnt_area02 h2 {
+font-size: 16px;
+}
+/*********************************************************
+	03-03.同意の取得
+*********************************************************/
+#consent #category_nav h2 {
+font-size: 16px;
+}
+/*********************************************************
+  03-04.他信用情報機関との情報交流
+*********************************************************/
+#information_exchange #category_nav h2 {
+font-size: 16px;
+}
+
+}
+
+@media only screen and (max-width:768px){
+/*********************************************************
+	02-02-01.加盟会員一覧
+*********************************************************/
+#memberlist .contents_in {
+width: 96%;
+}
+/*********************************************************
+	02-02-03.加盟申請フォーム
+*********************************************************/
+#application01 .contents_in {
+width: 96%;
+}
+/*********************************************************
+	03.信用情報について
+*********************************************************/
+#credit_info .contents_in {
+width: 96%;
+}
+/*********************************************************
+	03-03.同意の取得
+*********************************************************/
+#consent .contents_in {
+width: 96%;
+}
+/*********************************************************
+  03-04.他信用情報機関との情報交流
+*********************************************************/
+#information_exchange .contents_in {
+width: 96%;
+}
+
+}
+
+@media only screen and (max-width:640px){
+/*********************************************************
+	02-02-01.加盟会員一覧
+*********************************************************/
+#memberlist #cnt_area01 .h2_pattern01_g {
+margin: 0 0 20px;
+}
+
+#memberlist .h2_pattern01_g h2 {
+max-width: 246px;
+}
+
+#memberlist #cnt_area01 p {
+font-size: 12px;
+line-height: 20px;
+padding: 0 0 10px;
+}
+
+#memberlist #cnt_area01 .att {
+font-size: 12px;
+line-height: 20px;
+padding: 0 0 10px;
+}
+
+#memberlist #cnt_area01 .cnt_box{
+padding: 0 0 15px;
+}
+
+#memberlist #cnt_area01 .cnt_img {
+width: 95%;
+}
+
+#memberlist .cnt_area h3 {
+font-size: 15px;
+padding: 0 0 10px 5px;
+margin: 0 0 10px;
+}
+
+/* 五十音検索 */
+#memberlist .initial_list_wrapper {
+width: 275px;
+margin: 0 auto 15px;
+}
+
+#memberlist .initial_list+.initial_list {
+margin-left: 0px;
+}
+
+#memberlist .initial_list+.initial_list::before {
+display: none;
+}
+
+#memberlist .initial_list a {
+height: 30px;
+font-size: 14px;
+line-height: 30px;
+}
+
+#memberlist .initial_list .blank {
+height: 32px;
+}
+
+#memberlist .cnt_box02 form {
+padding: 0 0 10px;
+}
+
+/* 検索結果ページ */
+#memberlist .company_list {
+font-size: 12px;
+line-height: 20px;
+}
+
+/*********************************************************
+	02-02-03.加盟申請フォーム
+*********************************************************/
+#application01 #cnt_area01 .h2_pattern01_g {
+margin: 0 0 20px;
+}
+
+#application01 .h2_pattern01_g h2 {
+max-width: 246px;
+}
+
+#application01 #cnt_area01 p {
+font-size: 12px;
+line-height: 20px;
+padding: 0 0 10px;
+}
+
+#application01 #cnt_area01 .att {
+font-size: 12px;
+line-height: 20px;
+padding: 0 0 10px;
+}
+
+#application01 #cnt_area01 .cnt_box{
+padding: 0 0 15px;
+}
+
+#application01 .cnt_box01 dl {
+font-size: 12px;
+line-height: 20px;
+}
+
+#application01 .cnt_box01 dt {
+width: 100%;
+float: none;
+}
+
+#application01 .cnt_box01 dd {
+width: 100%;
+float: none;
+}
+
+#application01 input,
+#application01 textarea,
+#application01 select,
+#application01 button {
+font-size: 12px;
+line-height: 20px;
+padding: 7px 5px;
+}
+
+#application01 select {
+height: 36px;
+}
+
+#application01 [type=radio] {
+margin-right: 5px;
+}
+
+#application01 input#kashikingyo3_z {
+margin-top: 5px;
+}
+
+#application01 dl dd ul li ul li {
+margin-left: 30px;
+margin-bottom: 10px;
+}
+
+#application01 .w420 {
+width:100%;
+}
+
+#application01 .w140 {
+width:40%;
+}
+
+#application01 .mr {
+margin-right: 5px;
+}
+
+#application01 .form_title {
+display: block;
+width: 100%;
+}
+
+#application01 #cnt_area01 .notice {
+padding: 10px 15px;
+margin: 20px auto 0;
+width: 75%;
+}
+
+#application01 #cnt_area01 .notice_title {
+font-size: 16px;
+}
+
+#application01 #cnt_area01 ol {
+font-size: 12px;
+line-height: 20px;
+}
+
+#application01 #cnt_area01 ol li {
+padding-bottom: 3px;
+}
+
+#application01 .submit_btn {
+width: 79%;
+}
+
+#application01 .submit_btn a {
+font-size: 14px;
+letter-spacing: 0.01em;
+padding: 20px 0 20px;
+background-size: 21px auto;
+}
+
+
+/*********************************************************
+	03.信用情報について
+*********************************************************/
+#credit_info .h2_pattern01_g h2 {
+max-width: 246px;
+}
+
+#credit_info #cnt_area01 p {
+font-size: 12px;
+line-height: 20px;
+padding: 0 0 10px;
+}
+
+#credit_info #cnt_area01 .cnt_box{
+padding: 0 0 15px;
+}
+
+#credit_info #cnt_area01 .cnt_img {
+width: 95%;
+margin: 0 auto 10px;
+}
+
+#credit_info #cnt_area01 .emphasis_text {
+padding: 5px 0 0;
+}
+
+#credit_info #cnt_area02 {
+padding: 51px 0 0;
+}
+
+#credit_info #cnt_area02 .cnt_box {
+margin: 0 1.56% 5px 0;
+width: 49.22%;
+}
+
+#credit_info #cnt_area02 .cnt_box:nth-child(even) {
+margin: 0 0 5px;
+}
+
+#credit_info #cnt_area02 .cnt_box a {
+padding: 20px 0;
+background-size: 10px auto;
+}
+
+#credit_info #cnt_area02 .cnt_box:nth-child(even) a {
+padding: 20px 0 10px;
+}
+
+#credit_info #cnt_area02 .cnt_img {
+width: 40%;
+padding: 0 0 15px;
+}
+
+#credit_info #cnt_area02 h2 {
+font-size: 10px;
+}
+
+/*********************************************************
+	03-03.同意の取得
+*********************************************************/
+#consent #cnt_area01 .h2_pattern01_g {
+margin: 0 0 20px;
+}
+
+#consent .h2_pattern01_g h2 {
+max-width: 246px;
+}
+
+#consent #cnt_area01 p {
+font-size: 12px;
+line-height: 20px;
+padding: 0 0 10px;
+}
+
+#consent #cnt_area01 .first_text {
+padding: 0 0 15px;
+}
+
+#consent #cnt_area01 .cnt_box{
+padding: 0 0 15px;
+}
+
+#consent #cnt_area01 .cnt_img {
+width: 95%;
+}
+
+#consent .cnt_area h3 {
+font-size: 15px;
+padding: 0 0 10px 5px;
+margin: 0 0 10px;
+}
+
+#consent #cnt_area01 h4 {
+font-size: 14px;
+line-height: 20px;
+}
+
+#consent #cnt_area01 h4 span {
+margin: 0 0 0 32px;
+letter-spacing: 0;
+}
+
+#consent #cnt_area01 .consent_text {
+font-size: 12px;
+line-height: 20px;
+margin: 0 0 0 30px;
+}
+
+#consent #cnt_area01 .consent_text > ul {
+font-size: 12px;
+line-height: 20px;
+padding: 0 0 10px;
+}
+
+#consent #category_nav {
+padding: 51px 0 0;
+}
+
+#consent #category_nav .cnt_box {
+margin: 0 1.56% 5px 0;
+width: 49.22%;
+}
+
+#consent #category_nav .cnt_box:nth-child(even) {
+margin: 0 0 5px;
+}
+
+#consent #category_nav .cnt_box a {
+padding: 20px 0;
+background-size: 10px auto;
+}
+
+#consent #category_nav .cnt_box:nth-child(even) a {
+padding: 20px 0 10px;
+}
+
+#consent #category_nav .cnt_img {
+width: 40%;
+padding: 0 0 15px;
+}
+
+#consent #category_nav h2 {
+font-size: 10px;
+line-height: 10px;
+}
+/*********************************************************
+  03-04.他信用情報機関との情報交流
+*********************************************************/
+#information_exchange #cnt_area01 .h2_pattern01_g {
+margin: 0 0 20px;
+}
+
+#information_exchange .h2_pattern01_g h2 {
+max-width: 246px;
+}
+
+#information_exchange #cnt_area01 p {
+font-size: 12px;
+line-height: 20px;
+padding: 0 0 10px;
+}
+
+#information_exchange #cnt_area01 ul {
+font-size: 12px;
+line-height: 20px;
+padding: 0 0 10px;
+}
+
+#information_exchange #cnt_area01 .cnt_box{
+padding: 0 0 15px;
+}
+
+#information_exchange #cnt_area01 .cnt_img {
+width: 95%;
+}
+
+#information_exchange .cnt_area h3 {
+font-size: 15px;
+padding: 0 0 10px 5px;
+margin: 0 0 10px;
+}
+
+#information_exchange #cnt_area01 .indent {
+margin: 0 0 0 10px;
+}
+
+#information_exchange #category_nav {
+padding: 51px 0 0;
+}
+
+#information_exchange #category_nav .cnt_box {
+margin: 0 1.56% 5px 0;
+width: 49.22%;
+}
+
+#information_exchange #category_nav .cnt_box:nth-child(even) {
+margin: 0 0 5px;
+}
+
+#information_exchange #category_nav .cnt_box a {
+padding: 20px 0;
+background-size: 10px auto;
+}
+
+#information_exchange #category_nav .cnt_box:nth-child(even) a {
+padding: 20px 0 10px;
+}
+
+#information_exchange #category_nav .cnt_img {
+width: 40%;
+padding: 0 0 15px;
+}
+
+#information_exchange #category_nav h2 {
+font-size: 10px;
+line-height: 10px;
+}
+
+}

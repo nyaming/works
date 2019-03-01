@@ -1,0 +1,792 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="">
+<meta name="keywords" content="">
+<title>統計情報｜JICC</title>
+<link rel="stylesheet" href="../../common/css/normalize.css">
+<link rel="stylesheet" href="../../common/css/skin.css">
+<link rel="stylesheet" href="../../common/css/base.css">
+<link rel="stylesheet" href="../../common/css/local.css">
+<link rel="stylesheet" href="../../common/css/local_sp.css">
+<script src="../../common/js/jquery-3.3.1.min.js"></script>
+<script src="../../common/js/common.js"></script>
+<script src="../../common/js/jquery.matchHeight.js"></script>
+</head>
+<body>
+<div id="wrapper">
+<header>
+<div class="contents_in clearfix">
+<div id="header_left01">
+<div class="header_left_top01 clearfix">
+<div class="logo_header01"><a href="../../"><img src="../../common/images/header/logo_header01.jpg" alt="指定信用情報機関　株式会社日本信用情報機構"></a></div>
+<div class="btn_contact01 pc"><a href="#">お問い合わせ</a></div>
+<div class="btn_search01 pc">
+<form id="form01" action="#">
+<input id="sbox" name="s" type="text" placeholder="" />
+<input id="btn_sbtn01" type="submit" value="検索" />
+</form>
+</div><!-- END  .btn_search01 -->
+
+</div><!-- END  .header_left_top01 -->
+<div class="nav_btn_g sp">
+<div class="nav_btn">
+<span class="nav_line nav_line01"></span>
+<span class="nav_line nav_line02"></span>
+<span class="nav_line nav_line03"></span>
+</div><!-- END  .nav_btn -->
+</div><!-- END  .nav_btn -->
+<nav>
+<ul class="ul_nav01 clearfix">
+<li class="li_gnav01"><a href="../../about/">JICCについて</a>
+<div class="small_nav_area01 clearfix">
+<div class="contents_in clearfix">
+<div class="small_nav_g01 small_nav_g">
+<ul class="small_nav">
+<li><a href="../../about/whats/">信用情報機関とは</a></li>
+<li><a href="../../about/member/">加盟会員について</a></li>
+<li><a href="../../about/company/">会社概要</a></li>
+<li><a href="#">アクセスマップ</a></li>
+<li><a href="#">統計情報</a></li>
+<li><a href="#">コーポレートガバナンス</a></li>
+</ul>
+</div><!-- END  .small_nav_g01 -->
+<div class="small_nav_g02 small_nav_g">
+<ul class="small_nav">
+<li><a href="../../about/whats/about_00/">指定信用情報機関制度とは</a></li>
+</ul>
+</div><!-- END  .small_nav_g02 -->
+<div class="small_nav_g02 small_nav_g">
+<ul class="small_nav">
+<li><a href="#">加盟会員一覧</a></li>
+</ul>
+</div><!-- END  .small_nav_g02 -->
+<div class="small_nav_g02 small_nav_g">
+<ul class="small_nav">
+<li><a href="../../about/company/philosophy/">経営理念</a></li>
+<li><a href="../../about/company/message/">社長メッセージ</a></li>
+<li><a href="../../about/company/stockholder/">株主構成</a></li>
+<li><a href="../../about/company/official/">役員一覧</a></li>
+<li><a href="../../about/company/history/">沿革</a></li>
+<li><a href="../../about/company/organization/">組織図</a></li>
+<li><a href="../../about/company/settlement/">決算概況</a></li>
+</ul>
+</div><!-- END  .small_nav_g02 -->
+<div class="small_nav_g02 small_nav_g">
+</div><!-- END  .small_nav_g02 -->
+<div class="small_nav_g02 small_nav_g">
+<ul class="small_nav">
+<li><a href="#">信用情報提供契約を締結した貸金業者一覧</a></li>
+<li><a href="#">信用情報提供契約を終了した貸金業者一覧</a></li>
+</ul>
+</div><!-- END  .small_nav_g02 -->
+<div class="small_nav_g02 small_nav_g">
+<ul class="small_nav">
+<li><a href="#">内部統制基本方針</a></li>
+<li><a href="#">コンプライアンス基本方針</a></li>
+<li><a href="#">反社会的勢力に対する基本方針</a></li>
+<li><a href="#">法令に基づく公表事項</a></li>
+</ul>
+</div><!-- END  .small_nav_g02 -->
+
+</div><!-- END  .contents_in -->
+</div><!-- END  .small_nav01 -->
+</li>
+<li class="li_gnav01"><a href="#">信用情報について</a>
+<div class="small_nav_area01 clearfix">
+<div class="contents_in clearfix">
+<div class="small_nav_g01 small_nav_g">
+<ul class="small_nav">
+<li><a href="#">登録内容と登録期間</a></li>
+<li><a href="#">他信用情報機関との情報交流</a></li>
+<li><a href="#">同意の取得</a></li>
+</ul>
+</div><!-- END  .small_nav_g01 -->
+<div class="small_nav_g02 small_nav_g">
+</div><!-- END  .small_nav_g02 -->
+<div class="small_nav_g02 small_nav_g">
+</div><!-- END  .small_nav_g02 -->
+<div class="small_nav_g02 small_nav_g">
+</div><!-- END  .small_nav_g02 -->
+</div><!-- END  .contents_in -->
+</div><!-- END  .small_nav01 -->
+</li>
+<li class="li_gnav01"><a href="#">信用情報の確認</a>
+<div class="small_nav_area01 clearfix">
+<div class="contents_in clearfix">
+<div class="small_nav_g01 small_nav_g">
+<ul class="small_nav">
+<li><a href="#">スマートフォンによる開示手続き</a></li>
+<li><a href="#">郵送による開示手続き</a></li>
+<li><a href="#">窓口での開示手続き</a></li>
+<li><a href="#">貸付自粛制度について</a></li>
+<li><a href="#">調査依頼について</a></li>
+<li><a href="#">消費者向けお問い合わせ</a></li>
+<li><a href="#">コンビニエンスストアから<br>プリントする場合</a></li>
+</ul>
+</div><!-- END  .small_nav_g01 -->
+<div class="small_nav_g02 small_nav_g">
+<ul class="small_nav">
+<li><a href="#">「スマートフォン開示受付サービス」<br>利用規約</a></li>
+</ul>
+</div><!-- END  .small_nav_g02 -->
+<div class="small_nav_g02 small_nav_g">
+<ul class="small_nav">
+<li><a href="#">開示申込フォーム</a></li>
+<li><a href="#">郵送開示をご利用にあたっての<br>注意事項</a></li>
+</ul>
+</div><!-- END  .small_nav_g02 -->
+<div class="small_nav_g02 small_nav_g">
+</div><!-- END  .small_nav_g02 -->
+<div class="small_nav_g02 small_nav_g">
+</div><!-- END  .small_nav_g02 -->
+<div class="small_nav_g02 small_nav_g">
+</div><!-- END  .small_nav_g02 -->
+<div class="small_nav_g02 small_nav_g">
+<ul class="small_nav">
+<li><a href="#">お問い合わせフォーム</a></li>
+</ul>
+</div><!-- END  .small_nav_g02 -->
+<div class="small_nav_g02 small_nav_g">
+</div><!-- END  .small_nav_g02 -->
+</div><!-- END  .contents_in -->
+</div><!-- END  .small_nav01 -->
+</li>
+<li class="li_gnav01"><a href="#">よくあるQ＆A</a>
+<div class="small_nav_area01 clearfix">
+<div class="contents_in clearfix">
+<div class="small_nav_g01 small_nav_g">
+<ul class="small_nav">
+<li><a href="#">開示全般についてのＱ＆Ａ</a></li>
+<li><a href="#">スマートフォンによる開示申込み<br>についてのＱ＆Ａ</a></li>
+<li><a href="#">郵送・窓口での開示<br>についてのＱ＆Ａ</a></li>
+<li><a href="#">開示結果についてのＱ＆Ａ</a></li>
+<li><a href="#">本人申告コメント情報<br>についてのＱ＆Ａ</a></li>
+<li><a href="#">信用情報の登録についてのＱ＆Ａ</a></li>
+<li><a href="#">その他のＱ＆Ａ</a></li>
+</ul>
+</div><!-- END  .small_nav_g01 -->
+<div class="small_nav_g02 small_nav_g">
+</div><!-- END  .small_nav_g02 -->
+<div class="small_nav_g02 small_nav_g">
+</div><!-- END  .small_nav_g02 -->
+<div class="small_nav_g02 small_nav_g">
+</div><!-- END  .small_nav_g02 -->
+<div class="small_nav_g02 small_nav_g">
+</div><!-- END  .small_nav_g02 -->
+<div class="small_nav_g02 small_nav_g">
+</div><!-- END  .small_nav_g02 -->
+<div class="small_nav_g02 small_nav_g">
+</div><!-- END  .small_nav_g02 -->
+<div class="small_nav_g02 small_nav_g">
+</div><!-- END  .small_nav_g02 -->
+</div><!-- END  .contents_in -->
+</div><!-- END  .small_nav01 -->
+</li>
+</ul>
+<ul class="sub_nav_g sp clearfix">
+<li><a href="#"><img src="../../common/images/header/ico_login01_sp.png" alt=""><span>ログイン</span></a></li>
+<li><a href="#"><img src="../../common/images/header/ico_contact01_sp.png" alt=""><span>お問い合わせ</span></a></li>
+</ul><!-- END .sub_nav_g -->
+</nav>
+</div><!-- END  #header_left01 -->
+<div id="header_right01" class="pc">
+<div class="btn_login01"><a href="#"><img src="../../common/images/header/ico_login01.png" alt=""><span>ログイン</span></a></div>
+</div><!-- END  #header_right01 -->
+
+</div><!-- END  .contents_in -->
+</header>
+
+<div class="main_contents under_page01 under_about" id="statistics">
+<div class="h1_g">
+<h1>JICCについて</h1>
+<!-- END  #h1_g --></div>
+<div class="pankuzu_area01 clearfix contents_in">
+<ul class="clearfix">
+<li><a href="../../">ＨＯＭＥ</a></li>
+<li><a href="../">JICCについて</a></li>
+<li><span>統計情報</span></li>
+</ul>
+</div><!-- END  #panku_area01 -->
+<div class="cnt_area contents_in" id="cnt_area04">
+<ul class="clearfix">
+<li class="next_btn"><a href="#cnt_area01">各種統計データ</a></li>
+<li class="next_btn"><a href="#cnt_area02">統計過去データ</a></li>
+<li class="next_btn li_btn01"><a href="#cnt_area03">データから見る<br>ＪＩＣＣの特徴</a></li>
+</ul>
+</div><!-- END  #cnt_area04 -->
+<div class="cnt_area contents_in" id="cnt_area01">
+<div class="h2_pattern01_g"><h2>各種統計データ</h2></div>
+<div class="date">2018年12月末現在</div>
+<div class="cnt_g cnt_g01">
+<h3>１．加盟会員の状況</h3>
+<table>
+<tr>
+<th>加盟総会員数</th>
+<td class="right">1,371社</td>
+</tr>
+<tr>
+<th class="text_indent">内　加入貸金業者数</th>
+<td class="right">885社</td>
+</tr>
+</table>
+<p>【加盟会員の業態】<br>
+信販会社、消費者金融会社、流通系・銀行系・メーカー系カード会社、金融機関、保証会社、リース会社など</p>
+<p class="attention_text">
+※<a href="#">加盟会員</a>についてはこちらからご確認いただけます。<br>
+※<a href="#">今年度の推移［PDF:96KB］</a>はこちらからご確認いただけます。</p>
+</div><!-- END  .cnt_g01 -->
+<div class="cnt_g cnt_g02">
+<h3>２．照会の状況</h3>
+<table>
+<tr>
+<th>総照会件数</th>
+<td class="right">1,081万件</td>
+</tr>
+<tr>
+<th class="text_indent">内　加入貸金業者からの照会件数</th>
+<td class="right">835万件</td>
+</tr>
+</table>
+<p class="attention_text">※当月１カ月間の照会件数。<br>
+※自機関会員からの照会件数。<br>
+※<a href="#">今年度の推移［PDF:98KB］</a>はこちらからご確認いただけます。</p>
+</div><!-- END  .cnt_g02 -->
+<div class="cnt_g cnt_g03">
+<h3>３．登録の状況</h3>
+<div class="cnt_box cnt_box01">
+<h4>（１）総登録情報量</h4>
+<table>
+<tr>
+<th>登録件数</th>
+<td class="right">4億302万件</td>
+</tr>
+<tr>
+<th>登録残高の合計額</th>
+<td class="right">234兆2,781億円</td>
+</tr>
+</table>
+<p class="attention_text">※数値は月末時点。<br>
+※当社が保有する信用情報の総件数および登録残高の合計額。<br>
+※<a href="#">今年度の推移［PDF:375KB］</a>はこちらからご確認いただけます。</p>
+<!-- END  .cnt_box --></div>
+<div class="cnt_box cnt_box02">
+<h4>（２）貸金業法対象情報</h4>
+<div class="box_in box_in01">
+<h5>①登録情報数</h5>
+<div class="sp_scroll_box">
+<table>
+<tr>
+<th class="th01"></th>
+<th class="th02">登録人数</th>
+<th class="th03">登録件数</th>
+<th class="th04">登録残高の<br class="sp">合計額</th>
+<th class="th05">一人当たりの<br>残高有り件数</th>
+<th class="th06">一契約当たり<br class="sp">の残高</th>
+</tr>
+<tr>
+<th>総登録情報</th>
+<td class="right">1,804.6万人</td>
+<td class="right">3,060.0万件</td>
+<td class="right">―</td>
+<td class="right">―</td>
+<td class="right">―</td>
+</tr>
+<tr>
+<th>残高有り情報</th>
+<td class="right">1,082.2万人</td>
+<td class="right">1,617.1万件</td>
+<td class="right">7兆8,957億円</td>
+<td class="right">1.5件</td>
+<td class="right">48.8万円</td>
+</tr>
+<tr>
+<th>異動情報</th>
+<td class="right">62.0万人</td>
+<td class="right">585.4万件</td>
+<td class="right">―</td>
+<td class="right">―</td>
+<td class="right">―</td>
+</tr>
+</table>
+</div>
+<p>※数値は、月末時点。<br>
+※登録人数は、名寄せベース。<br>
+※総登録情報は、貸付け等が契約継続中または完済された情報。<br>
+※異動情報は、入金予定日から３カ月以上何ら入金されなかったもの。<br>
+（加入貸金業者において、貸倒償却した債権についても、顧客との契約関係が継続しているものについては登録されます。）<br>
+※加入する貸金業者が登録する無担保無保証貸付けを対象とした統計［PDF:113KB］はこちらからご確認いただけます。</p>
+</div><!-- END  .box_in -->
+<div class="box_in box_in02">
+<h5>②総量規制の除外・例外の登録状況</h5>
+<div class="sp_scroll_box">
+<table>
+<tr>
+<th class="th01"></th>
+<th class="th02">総登録情報件数</th>
+<th class="th03">残高有り情報件数</th>
+<th class="th04">登録残高の合計額</th>
+<th class="th05">一契約当たりの残高</th>
+</tr>
+<tr>
+<th>総量規制の除外情報</th>
+<td class="right">225,061件</td>
+<td class="right">24,944件</td>
+<td class="right">2兆40億円</td>
+<td class="right">―</td>
+</tr>
+<tr>
+<th>住宅資金貸付</th>
+<td class="right">172,514件</td>
+<td class="right">172,513件</td>
+<td class="right">1兆3,053億円</td>
+<td class="right">756.6万円</td>
+</tr>
+<tr>
+<th>住宅資金貸付<br>（つなぎ貸付）</th>
+<td class="right">9,163件</td>
+<td class="right">9,163件</td>
+<td class="right">1,786億円</td>
+<td class="right">1,949.0万円</td>
+</tr>
+<tr>
+<th>自動車購入時の<br>自動車担保貸付</th>
+<td class="right">17,637件</td>
+<td class="right">17,631件</td>
+<td class="right">77億円</td>
+<td class="right">43.7万円</td>
+</tr>
+<tr>
+<th>高額医療費の貸付</th>
+<td class="right">10件</td>
+<td class="right">10件</td>
+<td class="right">0億円</td>
+<td class="right">60.7万円</td>
+</tr>
+<tr>
+<th>有価証券担保貸付</th>
+<td class="right">317件</td>
+<td class="right">214件</td>
+<td class="right">46億円</td>
+<td class="right">2,164.7万円</td>
+</tr>
+<tr>
+<th>不動産担保貸付</th>
+<td class="right">21,703件</td>
+<td class="right">21,698件</td>
+<td class="right">4,837億円</td>
+<td class="right">2,229.1万円</td>
+</tr>
+<tr>
+<th>売却予定不動産の売却代金により<br>返済される貸付</th>
+<td class="right">3,717件</td>
+<td class="right">3,715件</td>
+<td class="right">241億円</td>
+<td class="right">648.8万円</td>
+</tr>
+</table>
+</div>
+<div class="sp_scroll_box">
+<table>
+<tr>
+<th class="th01"></th>
+<th class="th02">総登録情報件数</th>
+<th class="th03">残高有り情報件数</th>
+<th class="th04">登録残高の合計額</th>
+<th class="th05">一契約当たりの残高</th>
+</tr>
+<tr>
+<th>総量規制の例外情報</th>
+<td class="right">465,567件</td>
+<td class="right">407,492件</td>
+<td class="right">4,166億円</td>
+<td class="right">―</td>
+</tr>
+<tr>
+<th>個人顧客が既債務を返済するための貸付</th>
+<td class="right">45,981件</td>
+<td class="right">45,919件</td>
+<td class="right">375億円</td>
+<td class="right">81.8万円</td>
+</tr>
+<tr>
+<th>段階的返済借換え</th>
+<td class="right">215,128件</td>
+<td class="right">204,220件</td>
+<td class="right">1,734億円</td>
+<td class="right">84.9万円</td>
+</tr>
+<tr>
+<th>緊急医療費の貸付</th>
+<td class="right">64件</td>
+<td class="right">49件</td>
+<td class="right">0億円</td>
+<td class="right">77.5万円</td>
+</tr>
+<tr>
+<th>特定緊急貸付</th>
+<td class="right">182件</td>
+<td class="right">182件</td>
+<td class="right">0億円</td>
+<td class="right">5.2万円</td>
+</tr>
+<tr>
+<th>配偶者貸付</th>
+<td class="right">5,123件</td>
+<td class="right">3,421件</td>
+<td class="right">11億円</td>
+<td class="right">30.9万円</td>
+</tr>
+<tr>
+<th>事業を営む個人顧客に対する貸付</th>
+<td class="right">197,301件</td>
+<td class="right">151,916件</td>
+<td class="right">1,924億円</td>
+<td class="right">126.6万円</td>
+</tr>
+<tr>
+<th>個人顧客が新規事業を行うための資金の貸付</th>
+<td class="right">1,763件</td>
+<td class="right">1,760件</td>
+<td class="right">121億円</td>
+<td class="right">684.8万円</td>
+</tr>
+<tr>
+<th>つなぎ資金貸付</th>
+<td class="right">25件</td>
+<td class="right">25件</td>
+<td class="right">2億円</td>
+<td class="right">674.1万円</td>
+</tr>
+</table>
+</div>
+<p>※数値は、月末時点。<br>
+※総登録情報は、貸付け等が契約継続中の情報。</p>
+</div><!-- END  .box_in -->
+<div class="box_in box_in03">
+<h5>③残高がある者の借入件数毎の登録状況</h5>
+<div class="sp_scroll_box">
+<table>
+<tr>
+<th class="th01"></th>
+<th class="th02">登録人数</th>
+<th class="th03">登録件数</th>
+<th class="th04">残高金額</th>
+<th class="th05">一人当たりの残高</th>
+<th class="th06">一契約当たりの残高</th>
+</tr>
+<tr>
+<th>１件</th>
+<td class="right">720.4万人</td>
+<td class="right">720.4万件</td>
+<td class="right">4兆1,232億円</td>
+<td class="right">57.2万円</td>
+<td class="right">57.2万円</td>
+</tr>
+<tr>
+<th>２件</th>
+<td class="right">238.3万人</td>
+<td class="right">476.7万件</td>
+<td class="right">2兆1,420億円</td>
+<td class="right">89.9万円</td>
+<td class="right">44.9万円</td>
+</tr>
+<tr>
+<th>３件</th>
+<td class="right">86.9万人</td>
+<td class="right">260.7万件</td>
+<td class="right">1兆53億円</td>
+<td class="right">115.7万円</td>
+<td class="right">38.6万円</td>
+</tr>
+<tr>
+<th>４件</th>
+<td class="right">27.0万人</td>
+<td class="right">107.9万件</td>
+<td class="right">4,018億円</td>
+<td class="right">148.9万円</td>
+<td class="right">37.2万円</td>
+</tr>
+<tr>
+<th>５件以上</th>
+<td class="right">9.6万人</td>
+<td class="right">51.3万件</td>
+<td class="right">2,234億円</td>
+<td class="right">232.7万円</td>
+<td class="right">43.5万円</td>
+</tr>
+<tr>
+<th>合計</th>
+<td class="right">1,082.2万人</td>
+<td class="right">1,617.1万件</td>
+<td class="right">7兆8,957億円</td>
+<td class="right">73.0万円</td>
+<td class="right">48.8万円</td>
+</tr>
+</table>
+</div>
+<p class="attention_text">※数値は、月末時点。
+※登録人数は、名寄せベース。
+※単位未満を四捨五入しているため、借入件数毎の数値合計と合計欄の数値は一致しない場合があります。</p>
+</div><!-- END  .box_in -->
+<!-- END  .cnt_box --></div>
+</div><!-- END  .cnt_g03 -->
+<div class="cnt_g cnt_g04">
+<h3>４．信用情報の開示の状況</h3>
+<table>
+<tr>
+<th>開示件数</th>
+<td class="right">8,324件</td>
+</tr>
+</table>
+<p class="attention_text">※当月１カ月間の開示件数。<br>
+※<a href="#">今年度の推移［PDF:117KB］</a>はこちらからご確認いただけます。</p>
+</div><!-- END  .cnt_g04 -->
+<div class="cnt_g cnt_g05">
+<h3>５．個人情報の取り扱いに関する苦情の状況</h3>
+<table>
+<tr>
+<th>受付件数</th>
+<td class="right">0件</td>
+</tr>
+</table>
+<p class="attention_text">※当月１カ月間の苦情件数。<br>
+※<a href="#">今年度の推移［PDF:94KB］</a>はこちらからご確認いただけます。</p>
+</div><!-- END  .cnt_g05 -->
+<div class="cnt_g cnt_g06">
+<h3>６．加盟会員に対する罰則適用の状況</h3>
+<div class="sp_scroll_box">
+<table>
+<tr>
+<th class="th01">営業年度</th>
+<th class="th02">適用社数</th>
+<th class="th03">適用した罰則</th>
+<th class="th04">適用理由</th>
+</tr>
+<tr>
+<th>平成２９年度</th>
+<td>２社</td>
+<td>・情報提供停止<br>
+・契約の解除</td>
+<td>・報告義務違反<br>
+・改善措置違反<br>
+・同意未取得<br>
+・目的外使用</td>
+</tr>
+<tr>
+<th>平成２８年度</th>
+<td>該当なし</td>
+<td>該当なし</td>
+<td>該当なし</td>
+</tr>
+<tr>
+<th>平成２７年度</th>
+<td>該当なし</td>
+<td>該当なし</td>
+<td>該当なし</td>
+</tr>
+<tr>
+<th>平成２６年度</th>
+<td>２社</td>
+<td>・情報提供停止<br>
+・文書による注意処分</td>
+<td>・法令順守違反<br>
+・報告義務違反<br>
+・改善措置違反<br>
+・目的外使用</td>
+</tr>
+</table>
+</div>
+</div><!-- END  .cnt_g06 -->
+</div><!-- END  #cnt_area01 -->
+
+<div class="cnt_area contents_in" id="cnt_area02">
+<div class="h2_pattern01_g"><h2>統計過去データ</h2></div>
+<table>
+<tr>
+<th class="th01">年度</th>
+<th class="th02">タイトル</th>
+</tr>
+<tr>
+<td>平成29年度</td>
+<td><a href="#" target="_blank">平成29年度統計データ<br class="sp">[PDF：431KB]</a></td>
+</tr>
+<tr>
+<td>平成28年度</td>
+<td><a href="#" target="_blank">平成28年度統計データ<br class="sp">[PDF：742KB]</a></td>
+</tr>
+<tr>
+<td>平成27年度</td>
+<td><a href="#" target="_blank">平成27年度統計データ<br class="sp">[PDF：473KB]</a></td>
+</tr>
+<tr>
+<td>平成26年度</td>
+<td><a href="#" target="_blank">平成26年度統計データ<br class="sp">[PDF：308KB]</a></td>
+</tr>
+<tr>
+<td>平成25年度</td>
+<td><a href="#" target="_blank">平成25年度統計データ<br class="sp">[PDF：340KB]</a></td>
+</tr>
+<tr>
+<td>平成24年度</td>
+<td><a href="#" target="_blank">平成24年度統計データ<br class="sp">[PDF：261KB]</a></td>
+</tr>
+<tr>
+<td>平成23年度</td>
+<td><a href="#" target="_blank">平成23年度統計データ<br class="sp">[PDF：174KB]</a></td>
+</tr>
+<tr>
+<td>平成22年度</td>
+<td><a href="#" target="_blank">平成22年度統計データ<br class="sp">[PDF：118KB]</a></td>
+</tr>
+</table>
+</div><!-- END  #cnt_area02 -->
+
+<div class="cnt_area contents_in" id="cnt_area03">
+<div class="h2_pattern01_g"><h2>データから見るＪＩＣＣの特徴</h2></div>
+<!--<p class="first_text">ＪＩＣＣは、消費者金融分野、金融分野、販売信用分野などの信用情報の集積に努め、現在にいたるまでさまざまな対応を柔軟に進めてきました。<br>
+その結果、全業種を網羅する唯一の信用情報機関となりました。</p>-->
+<div class="cnt_g01 cnt_g">
+<h3>加盟会員の状況</h3>
+<p>消費者金融会社、流通系・銀行系・メーカー系クレジット会社、信販会社、金融機関、保証会社、リース会社など与信事業を営む幅広い事業者が加盟しています。</p>
+<div class="cnt_img"><img src="../../images/about/img01_cntarea03.jpg" alt=""></div>
+</div><!-- END  .cnt_g -->
+<div class="cnt_g02 cnt_g">
+<h3>登録する信用情報の状況</h3>
+<p>消費者信用市場に占めるＪＩＣＣ登録残高は国内最大規模です。</p>
+<div class="cnt_img"><img src="../../images/about/img02_cntarea03.jpg" alt=""></div>
+</div><!-- END  .cnt_g -->
+<div class="cnt_g03 cnt_g">
+<h3>信用情報の開示の状況</h3>
+<p>ＪＩＣＣでは、窓口、郵送及びスマートフォンから開示申込手続きが行える「情報開示モバイル受付サービス」など、お客様がご自身のライフスタイルに応じて手続き方法を選択できるよう複数の手続き方法を設け、年間約１０万件の開示申込を受付けております。</p>
+<div class="cnt_img"><img src="../../images/about/img03_cntarea03.jpg" alt=""></div>
+</div><!-- END  .cnt_g -->
+</div><!-- END  #cnt_area03 -->
+
+
+<div id="adobe_reader_box" class="clearfix contents_in">
+<div class="cnt_img"><img src="../../common/images/get_adobe_reader.gif" alt=""></div>
+<div class="cnt_text">
+<p>PDFファイルをご覧になるにはAdobe Readerが必要です。<br>
+<a href="https://get.adobe.com/reader/?loc=jp" target="_blank">Adobe Readerダウンロードページはこちら</a></p>
+</div><!-- END  .cnt_text -->
+</div><!-- END  .adobe_reader_box -->
+
+
+
+<div class="cnt_area contents_in" id="category_nav">
+<div class="cnt_g clearfix">
+<div class="cnt_box01 cnt_box"><a href="../../about/whats/">
+<div class="cnt_img"><img src="../../images/about/img01_cntarea02.png" alt="[アイコン]信用情報機関とは"></div>
+<h2>信用情報機関とは</h2>
+</a></div><!-- END  .cnt_box -->
+<div class="cnt_box02 cnt_box"><a href="#">
+<div class="cnt_img"><img src="../../images/about/img02_cntarea02.png" alt="[アイコン]加盟会員について"></div>
+<h2>加盟会員について</h2>
+</a></div><!-- END  .cnt_box -->
+<div class="cnt_box03 cnt_box"><a href="#">
+<div class="cnt_img"><img src="../../images/about/img03_cntarea02.png" alt="[アイコン]会社概要"></div>
+<h2>会社概要</h2>
+</a></div><!-- END  .cnt_box -->
+<div class="cnt_box04 cnt_box"><a href="#">
+<div class="cnt_img"><img src="../../images/about/img04_cntarea02.png" alt="[アイコン]アクセスマップ"></div>
+<h2>アクセスマップ</h2>
+</a></div><!-- END  .cnt_box -->
+<div class="cnt_box05 cnt_box"><a href="#">
+<div class="cnt_img"><img src="../../images/about/img05_cntarea02.png" alt="[アイコン]統計情報"></div>
+<h2>統計情報</h2>
+</a></div><!-- END  .cnt_box -->
+<div class="cnt_box06 cnt_box"><a href="#">
+<div class="cnt_img"><img src="../../images/about/img06_cntarea02.png" alt="[アイコン]コーポレートガバナンス"></div>
+<h2>コーポレートガバナンス</h2>
+</a></div><!-- END  .cnt_box -->
+</div><!-- END  .cnt_g -->
+</div><!-- END  #cnt_area03 -->
+
+</div><!-- END #company -->
+
+
+
+
+<footer>
+<div class="contents_in">
+<div class="btn_pagetop pc"><a href="#">PageTop</a></div>
+<div class="clearfix pc" id="footer_top">
+<div class="sitemap_g01 sitemap_g">
+<div class="title_sitemap"><a href="../../about/">JICCについて</a></div>
+<ul>
+<li><a href="../../about/whats/">信用情報機関とは</a></li>
+<li><a href="#">加盟会員について</a></li>
+<li><a href="#">会社概要</a></li>
+<li><a href="#">アクセスマップ</a></li>
+<li><a href="#">統計情報</a></li>
+<li><a href="#">コーポレートガバナンス</a></li>
+</ul>
+<div class="title_sitemap"><a href="#">信用情報について</a></div>
+<ul>
+<li><a href="#">登録内容と登録期間</a></li>
+<li><a href="#">他信用情報機関との情報交流</a></li>
+<li><a href="#">同意の取得</a></li>
+</ul>
+<div class="title_sitemap"><a href="#">信用情報の確認</a></div>
+<ul>
+<li><a href="#">スマートフォンによる開示手続き</a></li>
+<li><a href="#">郵送による開示手続き</a></li>
+<li><a href="#">窓口での開示手続き</a></li>
+<li><a href="#">貸付自粛制度について</a></li>
+<li><a href="#">調査依頼について</a></li>
+<li><a href="#">消費者向けお問い合わせ</a></li>
+<li><a href="#">コンビニエンスストアからプリントする場合</a></li>
+</ul>
+</div><!-- END  #sitemap_g01 -->
+<div class="sitemap_g02 sitemap_g">
+<div class="title_sitemap"><a href="#">免許証等の紛失・盗難について</a></div>
+<div class="title_sitemap"><a href="#">よくあるＱ＆Ａ</a></div>
+<ul>
+<li><a href="#">開示全般についてのＱ＆Ａ</a></li>
+<li><a href="#">スマートフォンによる開示申込みについてのＱ＆Ａ</a></li>
+<li><a href="#">郵送・窓口での開示についてのＱ＆Ａ</a></li>
+<li><a href="#">開示結果についてのＱ＆Ａ</a></li>
+<li><a href="#">本人申告コメント情報についてのＱ＆Ａ</a></li>
+<li><a href="#">信用情報の登録についてのＱ＆Ａ</a></li>
+<li><a href="#">その他のＱ＆Ａ</a></li>
+</ul>
+<div class="title_sitemap"><a href="#">その他</a></div>
+<ul>
+<li><a href="#">本サイトのご利用にあたって</a></li>
+<li><a href="#">重要なお知らせ</a></li>
+<li><a href="#">お知らせ</a></li>
+<li><a href="#">災害救助法適用時の対応について</a></li>
+</ul>
+</div><!-- END  #sitemap_g02 -->
+<div class="sitemap_g03 sitemap_g">
+<div class="title_sitemap"><a href="#">リンク集</a></div>
+<ul>
+<li><a href="#" target="_blank">金融庁</a></li>
+<li><a href="#" target="_blank">経済産業省</a></li>
+<li><a href="#" target="_blank">消費者庁</a></li>
+<li><a href="#" target="_blank">日本貸金業協会</a></li>
+<li><a href="#" target="_blank">日本クレジット協会</a></li>
+<li><a href="#" target="_blank">日本クレジットカード協会</a></li>
+<li><a href="#" target="_blank">国民生活センター</a></li>
+<li><a href="#" target="_blank">日本クレジットカウンセリング協会</a></li>
+<li><a href="#" target="_blank">全国消費生活相談員協会</a></li>
+<li><a href="#" target="_blank">日本消費生活アドバイザー・コンサルタント・相談員協会</a></li>
+<li><a href="#" target="_blank">株式会社シー・アイ・シー</a></li>
+<li><a href="#" target="_blank">全国銀行個人信用情報センター</a></li>
+</ul>
+<div class="bnr_footer01"><img src="../../common/images/footer/banner_footer01.jpg" alt=""></div>
+</div><!-- END  #sitemap_g03 -->
+</div><!-- END  #footer_top -->
+<div id="footer_bottom">
+<div class="logo_footer01"><img src="../../common/images/footer/logo_footer01.png" alt="指定信用情報機関　株式会社日本信用情報機構"></div>
+<div class="copyright">Copyright © 2019 Japan Credit Information Reference Center Corp. All Rights Reserved.</div>
+</div><!-- END  #footer_bottom -->
+</div><!-- END  .contents_in -->
+</footer>
+
+<!-- END wrapper --></div>
+</body>
+</html>

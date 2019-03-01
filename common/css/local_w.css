@@ -1,0 +1,1429 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*********************************************************
+目次
+	01.トップページ
+	02.JICCについて
+	02-01.信用情報機関とは
+	02-01-01.指定信用情報機関制度とは？
+	02-04.アクセスマップ
+	02-05.統計情報
+	02-06.個人情報保護への取り組み
+	02-06.コーポレートガバナンス
+	03-01.信用情報について
+	08.本サイトのご利用にあたって
+	04-02.郵送による開示手続き
+
+*********************************************************/
+/*********************************************************
+	02-04.アクセスマップ
+*********************************************************/
+
+
+#access .h2_pattern01_g{
+margin: 24px 0 37px;
+}
+
+/*#access #cnt_area02 .h2_pattern01_g h2 {
+background: #13ae67;
+color: #fff;
+font-size: 23px;
+font-family: 'hiraginokaku_w6';
+letter-spacing: 0.15em;
+max-width: 665px;
+width: 100%;
+margin: 0 auto;
+padding: 9px 0;
+text-align: center;
+position: relative;
+z-index: 2;
+}*/
+
+#access #cnt_area02 p.h2_note01{
+max-width: 410px;
+color: #13ae67;
+font-size: 18px;
+font-family: 'hiraginokaku_w6';
+margin: -30px auto 0;
+}
+
+#access #cnt_area01 ul{
+max-width: 650px;
+width: 100%;
+margin: 0 auto 50px;
+display: flex;
+-webkit-display: flex;
+-moz-display: flex;
+-o-display: flex;
+-ms-display: flex;
+justify-content: space-around;
+-webkit-justify-content: space-around;
+-moz-justify-content: space-around;
+-o-justify-content: space-around;
+-ms-justify-content: space-around;
+}
+
+#access #cnt_area01 ul li{
+width: 100%;
+background: #13ae67;
+max-width: 300px;
+text-align: center;
+}
+
+#access #cnt_area01 ul li a{
+display: inline-block;
+width: 100%;
+padding: 18px 0;
+color: #fff;
+font-size: 16px;
+font-family: 'hiraginokaku_w6';
+letter-spacing: 0.09em;
+background: url(../../images/about/ico_arrow_right.png) no-repeat 280px 36px;
+background: url(../../images/about/ico_arrow_right.png) no-repeat 98.8% 94%;
+background-size: 17px auto;
+}
+
+#access #cnt_area01 ul li a.btn_list01{
+padding: 26px 0;
+}
+
+#access h3{
+display: inline-block;
+width: 100%;
+/*border-top: 1px solid #13ae67;*/
+border-bottom: 1px solid #13ae67;
+/*border-left: 5px solid #13ae67;*/
+color: #13ae67;
+font-size: 18px;
+letter-spacing: 0.07em;
+font-family: 'hiraginokaku_w6';
+padding: 0 0 18px 0;
+box-sizing: border-box;
+margin: 0 0 20px;
+}
+
+#access p {
+font-family: 'hiraginokaku_w3';
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.07em;
+padding: 0 0 30px;
+}
+
+#access p.txt_note01 {
+color: #e60012;
+}
+
+#access #cnt_area02 ul li{
+font-family: 'hiraginokaku_w3';
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.07em;
+}
+
+#access .maps {
+width: 100%;
+padding-top: 50%;
+margin: 0 auto 35px;
+position: relative;
+}
+#access .maps iframe {
+position: absolute;
+top: 0;
+left: 0;
+width: 100% !important;
+height: 100% !important;
+}
+
+/*********************************************************
+	02-05.統計情報
+*********************************************************/
+
+
+/*********************************************************
+	02-06.個人情報保護への取り組み
+*********************************************************/
+#privacypolicy a:hover{
+opacity: 0.7;
+}
+
+
+#privacypolicy .cnt_area .cnt_g{
+border-top: 1px solid #13ae67;
+box-sizing: border-box;
+}
+
+#privacypolicy #cnt_area05 .cnt_g{
+border-bottom: 1px solid #13ae67;
+}
+	
+#privacypolicy .cnt_area .cnt_g .question_box01{
+color: #13ae67;
+font-size: 18px;
+letter-spacing: 0.07em;
+font-family: 'hiraginokaku_w6';
+}
+
+#privacypolicy .cnt_area .cnt_g .question_box01 span{
+display: inline-block;
+width: 100%;
+background: url(../../images/about/whats/about_00/icon_markon01.png) no-repeat right center;
+background-size: 30px auto;
+padding: 30px 30px 30px 0;
+box-sizing: border-box;
+cursor: pointer;
+}
+
+#privacypolicy .cnt_area .cnt_g .question_box01.current span{
+background-image: url(../../images/about/whats/about_00/icon_markoff01.png);
+}
+
+#privacypolicy .cnt_area .cnt_g .answer_box01{
+display: none;
+background: rgba(19,174,103,0.2);
+padding: 40px 50px 40px;
+box-sizing: border-box;
+margin: 0 0 20px;
+}
+
+#privacypolicy .cnt_area .cnt_g .answer_box01 h4{
+font-family: 'hiraginokaku_w6';
+font-size: 14px;
+padding: 5px 0 0px;
+}
+
+#privacypolicy .cnt_area .cnt_g .answer_box01 p{
+font-size: 14px;
+line-height: 20px;
+margin: 0 0 15px;
+}
+
+#privacypolicy .cnt_area .cnt_g .answer_box01 .cnt_img img{
+width: 100%;
+height: auto;
+display: block;
+}
+
+
+#privacypolicy .h2_pattern01_g{
+margin: 24px 0 37px;
+}
+
+/*#privacypolicy .cnt_area{
+margin: 0 auto 70px;
+}*/
+
+#privacypolicy h3{
+display: inline-block;
+width: 100%;
+border-bottom: 1px solid #13ae67;
+color: #13ae67;
+font-size: 18px;
+letter-spacing: 0.07em;
+font-family: 'hiraginokaku_w6';
+padding: 0 0 18px 0;
+box-sizing: border-box;
+margin: 0 0 20px;
+}
+
+#privacypolicy p {
+font-family: 'hiraginokaku_w3';
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.07em;
+padding: 0 0 30px;
+}
+
+#privacypolicy p.txt_box01 {
+text-align: right;
+}
+
+#privacypolicy h4{
+display: inline-block;
+width: 100%;
+letter-spacing: 0.07em;
+font-family: 'hiraginokaku_w6';
+/*padding: 0 0 0 1em;*/
+}
+
+
+#privacypolicy dl{
+font-family: 'hiraginokaku_w3';
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.07em;
+}
+
+#privacypolicy dl dt{
+font-family: 'hiraginokaku_w6';
+font-size: 14px;
+margin: 0 0 5px;
+}
+
+#privacypolicy #cnt_area03 dl dt,
+#privacypolicy #cnt_area04 dl dt,
+#privacypolicy #cnt_area05 dl dt{
+border-bottom: 1px solid #727171;
+}
+
+#privacypolicy dl dd{
+margin: 0 0 30px 2em;
+}
+
+#privacypolicy #cnt_area03 dl dd,
+#privacypolicy #cnt_area04 dl dd{
+margin: 0 0 30px 0;
+}
+
+#privacypolicy dl dd ul{
+margin: 0 auto 20px;
+}
+#privacypolicy #cnt_area04 dl.dl_list01{
+padding: 10px 0;
+}
+#privacypolicy #cnt_area04 dl.dl_list01 dt,
+#privacypolicy #cnt_area05 dl.dl_list02 dt{
+font-family: 'hiraginokaku_w3';
+border: none;
+margin: 0 0 5px;
+}
+#privacypolicy #cnt_area04 dl.dl_list01 dd{
+padding: 0 0 0 2em;
+margin: 0 0 15px;
+}
+
+#privacypolicy #cnt_area04 dl.dl_list02{
+padding: 10px 0 10px 1em;
+}
+#privacypolicy #cnt_area04 dl.dl_list02 dt{
+font-family: 'hiraginokaku_w3';
+border: none;
+margin: 0 0 5px;
+}
+#privacypolicy #cnt_area04 dl.dl_list02 dd{
+margin: 0 0 15px 3em;
+}
+
+#privacypolicy #cnt_area04 .txt_box02{
+padding: 0 0 0 2em;
+}
+
+#privacypolicy #cnt_area05 dl dd {
+margin: 0 0 30px 0;
+}
+
+#privacypolicy #cnt_area05 dl.dl_list02{
+padding: 0 0 0 1em;
+}
+
+#privacypolicy #cnt_area05 dl.dl_list02 dd {
+margin: 0 0 15px 1em;
+}
+
+#privacypolicy #cnt_area05 .cnt_img {
+width: 100%;
+max-width: 580px;
+margin: 0 auto;
+}	
+	
+#privacypolicy #cnt_area05 .cnt_img img{
+width: 100%;
+height: auto;
+}		
+
+
+/*********************************************************
+	02-06.コーポレートガバナンス
+*********************************************************/
+
+
+	
+#corporate_governance .cnt_area .cnt_g{
+border-top: 1px solid #13ae67;
+box-sizing: border-box;
+}
+
+#corporate_governance #cnt_area05 .cnt_g{
+border-bottom: 1px solid #13ae67;
+}
+	
+#corporate_governance .cnt_area .cnt_g .question_box01{
+color: #13ae67;
+font-size: 18px;
+letter-spacing: 0.07em;
+font-family: 'hiraginokaku_w6';
+}
+
+#corporate_governance .cnt_area .cnt_g .question_box01 span{
+display: inline-block;
+width: 100%;
+background: url(../../images/about/whats/about_00/icon_markon01.png) no-repeat right center;
+background-size: 30px auto;
+padding: 30px 30px 30px 0;
+box-sizing: border-box;
+cursor: pointer;
+}
+
+#corporate_governance .cnt_area .cnt_g .question_box01.current span{
+background-image: url(../../images/about/whats/about_00/icon_markoff01.png);
+}
+
+#corporate_governance .cnt_area .cnt_g .answer_box01{
+display: none;
+background: rgba(19,174,103,0.2);
+padding: 40px 50px 40px;
+box-sizing: border-box;
+margin: 0 0 20px;
+}
+
+#corporate_governance .cnt_area .cnt_g .answer_box01 h4{
+font-family: 'hiraginokaku_w6';
+font-size: 16px;
+padding: 0 0 5px;
+}
+
+#corporate_governance .cnt_area .cnt_g .answer_box01 p{
+font-size: 14px;
+line-height: 20px;
+margin: 0 0 15px;
+}
+
+#corporate_governance .cnt_area .cnt_g .answer_box01 .cnt_img img{
+width: 100%;
+height: auto;
+display: block;
+}
+
+#corporate_governance .mb50{
+margin-bottom: 50px;
+}
+
+#corporate_governance #cnt_area04 .h2_pattern01_g h2 {
+background: #13ae67;
+color: #fff;
+font-size: 23px;
+font-family: 'hiraginokaku_w6';
+letter-spacing: 0.15em;
+max-width: 550px;
+width: 100%;
+margin: 0 auto;
+padding: 9px 0;
+text-align: center;
+position: relative;
+z-index: 2;
+}
+#corporate_governance #cnt_area04 .h2_pattern01_g h2::before,#corporate_governance #cnt_area04  .h2_pattern01_g h2::after {
+border-top: 33px solid transparent;
+border-bottom: 31px solid transparent;
+}
+
+#corporate_governance a:hover{
+opacity: 0.7;
+}
+
+#corporate_governance .h2_pattern01_g{
+margin: 24px 0 37px;
+}
+
+/*#corporate_governance .cnt_area{
+margin: 0 auto 70px;
+}*/
+
+#corporate_governance h3{
+display: inline-block;
+width: 100%;
+border-bottom: 1px solid #13ae67;
+color: #13ae67;
+font-size: 18px;
+letter-spacing: 0.07em;
+font-family: 'hiraginokaku_w6';
+padding: 0 0 18px 0;
+box-sizing: border-box;
+margin: 0 0 20px;
+}
+
+#corporate_governance p {
+font-family: 'hiraginokaku_w3';
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.07em;
+padding: 0 0 30px;
+}
+
+#corporate_governance p.txt_box01 {
+text-align: right;
+}
+
+#corporate_governance h4{
+font-family: 'hiraginokaku_w6';
+font-size: 14px;
+line-height: 24px;
+border-bottom: 1px solid #333;
+margin: 0 0 10px;
+}
+
+
+#corporate_governance dl{
+font-family: 'hiraginokaku_w3';
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.07em;
+}
+
+#corporate_governance dl dt{
+font-family: 'hiraginokaku_w6';
+font-size: 14px;
+margin: 0 0 5px;
+}
+
+#corporate_governance dl dd{
+margin: 0 0 20px 2em;
+}
+
+#corporate_governance #cnt_area03 dl dt,
+#corporate_governance #cnt_area05 dl dt{
+border-bottom: 1px solid #333;
+}
+#corporate_governance #cnt_area03 dl dd,
+#corporate_governance #cnt_area05 dl dd{
+margin: 0 0 30px 0;
+}
+
+#corporate_governance #cnt_area04 ul li,
+#corporate_governance #cnt_area06 ul li{
+font-family: 'hiraginokaku_w3';
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.07em;
+display: flex;
+-webkit-display: flex;
+-moz-display: flex;
+-o-display: flex;
+-ms-display: flex;
+margin: 0 0 10px;
+}
+
+#corporate_governance #cnt_area04 ul.ul_list01,
+#corporate_governance #cnt_area06 ul.ul_list01{
+margin: 0 0 10px 1em;
+text-indent: -1em;
+}
+
+#corporate_governance #cnt_area04 .cnt_img {
+width: 100%;
+max-width: 860px;
+margin: 30px auto;
+}	
+	
+#corporate_governance #cnt_area04 .cnt_img img{
+width: 100%;
+height: auto;
+}
+
+#corporate_governance #cnt_area06 .cnt_box01{
+margin: 0 0 40px;
+}
+
+/*********************************************************
+	03-01.信用情報について
+*********************************************************/
+
+/*********************************************************
+	08.本サイトのご利用にあたって
+*********************************************************/
+#policy .h1_g {
+    background-image: url(../../images/about/bg_mainimg01.jpg);
+}
+
+
+#policy a:hover{
+opacity: 0.7;
+}
+
+#policy .h2_pattern01_g{
+margin: 24px 0 37px;
+}
+
+#policy .h2_pattern01_g h2 {
+    background: #00a6ba;
+    color: #fff;
+    font-size: 23px;
+    font-family: 'hiraginokaku_w6';
+    letter-spacing: 0.15em;
+    max-width: 442px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 9px 0;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+}
+
+
+#policy .h2_pattern01_g h2::before {
+    border-right: 25px solid #00a6ba;
+    left: -25px;
+}
+
+#policy .h2_pattern01_g h2::after {
+    border-left: 25px solid #00a6ba;
+}
+
+#policy .h2_pattern01_g::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    background:#00a6ba;
+    width: 100%;
+    height: 1px;
+}
+
+#policy .cnt_area{
+margin: 0 auto 70px;
+}
+
+#policy h3{
+display: inline-block;
+width: 100%;
+border-bottom: 1px solid #00a6ba;
+color: #00a6ba;
+font-size: 18px;
+letter-spacing: 0.07em;
+font-family: 'hiraginokaku_w6';
+padding: 0 0 18px 0;
+box-sizing: border-box;
+margin: 0 0 20px;
+}
+
+#policy p {
+font-family: 'hiraginokaku_w3';
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.07em;
+padding: 0 0 30px;
+}
+
+
+#policy h4{
+font-family: 'hiraginokaku_w6';
+font-size: 14px;
+line-height: 24px;
+}
+
+#policy #cnt_area02 ul{
+margin: 0 0 20px;
+}
+
+#policy #cnt_area02 ul li{
+font-family: 'hiraginokaku_w3';
+font-size: 14px;
+/*line-height: 24px;*/
+letter-spacing: 0.07em;
+}
+#policy #cnt_area02 .cnt_g{
+width: 575px;
+margin: 0 0 30px;
+display: flex;
+-webkit-display: flex;
+-moz-display: flex;
+-o-display: flex;
+-ms-display: flex;
+}
+
+#policy #cnt_area02 .cnt_img {
+width: 100%;
+max-width: 158px;
+margin: 0 20px 0 0;
+}	
+	
+#policy #cnt_area02 .cnt_img img{
+width: 100%;
+height: auto;
+}
+
+#policy p.txt_note01 {
+padding: 10px 0;
+}
+
+
+/*********************************************************
+	04-02.郵送による開示手続き
+*********************************************************/
+
+
+#mail .pb0{
+padding-bottom: 0!important;
+}
+#mail .next_btn{
+background:#e15082;
+max-width: 565px;
+margin: 75px auto 0;
+width: 100%;
+text-align: center;
+}
+
+#mail .next_btn a{
+display: inline-block;
+width: 100%;
+padding: 24px 0;
+color: #fff;
+font-size: 27px;
+font-family: 'hiraginokaku_w6';
+letter-spacing: 0.09em;
+background: url(../../images/disclosure/ico_arrow_right.png) no-repeat 99% 87%;
+background-size: 40px auto;
+}
+
+#mail .next_btn a::after{
+content: url(../../images/disclosure/icon_window.png);
+padding-left: 10px;
+}
+
+#mail .cnt_area .cnt_g .answer_box01 .btn_box{
+max-width: 300px;
+margin: 0 auto 50px;
+text-align: center;
+}
+
+#mail .next_btn02{
+background:#e15082;
+max-width: 300px;
+margin: 0 auto 0;
+width: 100%;
+text-align: center;
+}
+
+#mail .next_btn02 a{
+display: inline-block;
+width: 100%;
+padding: 24px 0;
+color: #fff;
+font-size: 22px;
+font-family: 'hiraginokaku_w6';
+letter-spacing: 0.09em;
+background: url(../../images/disclosure/ico_arrow_right.png) no-repeat 98% 90%;
+background-size: 20px auto;
+}
+
+
+
+#mail .color_red{
+color: #e60012;
+}
+
+#mail #cnt_area01{
+padding: 0 0 5px;
+}
+
+#mail #cnt_area01 .h2_pattern01_g{
+margin: 0 0 30px;
+}
+
+#mail .cnt_area h3 {
+width: 100%;
+border-bottom: 1px solid #e15082;
+color: #e15082;
+font-size: 18px;
+letter-spacing: 0.07em;
+font-family: 'hiraginokaku_w6';
+padding: 0 0 15px 0;
+box-sizing: border-box;
+margin: 0 0 20px;
+box-sizing: border-box;
+}
+
+#mail .cnt_area h4 {
+width: 100%;
+color: #fff;
+font-size: 20px;
+letter-spacing: 0.07em;
+font-family: 'hiraginokaku_w6';
+background-color: #e15082;
+padding: 10px 0 13px 0;
+box-sizing: border-box;
+text-align:center;
+margin: 0 0 20px;
+}
+
+#mail #cnt_area02 p{
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.07em;
+padding: 0 0 20px;
+
+}
+
+#mail #cnt_area02 p.txt_note01{
+margin: 0 0 0 1em;
+text-indent: -1em;
+}
+
+#mail #cnt_area02 .txt_note02{
+margin: 0!important;
+text-indent: 0!important;
+}
+
+#mail .cnt_area .text_link{
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.04em;
+padding: 0 0 15px;
+}
+
+#mail .cnt_area .text_link a{
+color: #002ac8;
+text-decoration: underline;
+font-family: 'hiraginokaku_w6';
+}
+
+#mail .cnt_area .text_link span{
+display: block;
+padding: 10px 0 0;
+letter-spacing: 0.07em;
+}
+
+#mail #cnt_area02 .cnt_block{
+width:100%;
+background-color:#efefef;
+padding-bottom: 20px;
+margin-bottom: 10px;
+}
+
+#mail #cnt_area02 .cnt_g{
+max-width: 900px;
+margin: 0 auto 10px;
+box-sizing: border-box;
+}
+
+
+#mail .cnt_area  .cnt_g .question_box01{
+color: #898989;
+font-size: 18px;
+letter-spacing: 0.07em;
+font-family: 'hiraginokaku_w6';
+background-color: #fff;
+}
+
+#mail .cnt_area  .cnt_g .question_box01 span{
+display: inline-block;
+width: 100%;
+background: url(../../images/disclosure/icon_markon01.png) no-repeat 97.5%;
+background-size: 30px auto;
+padding: 30px 30px 30px 20px;
+box-sizing: border-box;
+cursor: pointer;
+}
+
+#mail .cnt_area  .cnt_g .question_box01.current span{
+background: url(../../images/disclosure/icon_markoff01.png) no-repeat 97.5%;
+}
+
+#mail .cnt_area .cnt_g .question_box01 span::before {
+content: "";
+display: inline-block;
+width: 37px;
+height: 24px;
+background: url(../../images/disclosure/icon_mail01.png) no-repeat center left;
+background-size: contain;
+vertical-align: middle;
+padding-right: 20px;
+
+}
+
+#mail .cnt_area .cnt_g .answer_box01{
+display: none;
+background: #efefef;
+padding: 10px 0px 0px;
+box-sizing: border-box;
+margin: 0 0 20px;
+}
+
+#mail .cnt_area  .cnt_g .answer_box01 p{
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.02em;
+}
+
+#mail .cnt_area  .cnt_g .answer_box01 ol{
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.02em;
+}
+
+#mail .cnt_area  .cnt_g .answer_box01 li{
+text-indent: -3em;
+margin: 0 0 0 3em;
+}
+
+#mail .cnt_area  .cnt_g .answer_box01 h3{
+font-family: 'hiraginokaku_w6';
+font-size: 14px;
+border-bottom: 1px solid #333;
+padding: 0 0 7px;
+margin: 20px 0 15px;
+}
+
+#mail .cnt_area  .cnt_g .answer_box01 h4{
+font-size: 14px;
+margin: 20px 0 5px;
+}
+
+#mail .cnt_area  .cnt_g .answer_box01 dl {
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.02em;
+margin: 0 0 20px;
+}
+
+#mail .cnt_area  .cnt_g .answer_box01 dl dd{
+margin: 0 0 0 2em;
+}
+
+#mail .cnt_area  .cnt_g .answer_box01 ul li{
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.02em;
+text-indent: -1em;
+margin: 0 0 0 1em;
+}
+
+#mail .cnt_area  .cnt_g .answer_box01 ol{
+margin: 1em 0 0 0;
+}
+
+#mail .cnt_area  .cnt_g .answer_box01 ul{
+margin: 0 0 1em ;
+}
+
+#mail .cnt_area  .cnt_g .answer_box01 .cnt_title{
+font-family: 'hiraginokaku_w6';
+font-size: 14px;
+margin: 0 0 15px;
+}
+
+#mail .cnt_area .cnt_g .answer_box01 .cnt_title02 {
+    font-family: 'hiraginokaku_w3';
+    font-size: 14px;
+    margin: 0 0 10px;
+}
+
+#mail .cnt_area  .cnt_g .answer_box01 .cnt_txt{
+margin: 0 0 25px;
+}
+
+#mail .cnt_area  .cnt_g .answer_box01 .cnt_img01{
+max-width: 600px;
+margin:0 auto;
+}
+
+#mail .cnt_area .cnt_g .answer_box01 .cnt_img01.box02 {
+max-width: 577px;
+margin: 0 auto 50px;
+}
+
+#mail .cnt_area .cnt_g .answer_box01 .cnt_img01.box03 {
+max-width: 579px;
+margin: 0 auto 20px;
+}
+
+#mail .cnt_area .cnt_g .answer_box01 .cnt_img01 img{
+width: 100%;
+height: auto;
+}
+
+#mail .cnt_area .cnt_g .answer_box01 table{
+max-width: 840px;
+width: 100%;
+margin: 0 0 25px;
+}
+
+#mail .cnt_area .cnt_g .answer_box01 table th{
+width: 50%;
+color: #fff;
+background-color: #e15082;
+border:1px solid  #e15082;
+font-family: 'hiraginokaku_w3';
+font-size: 14px;
+line-height: 24px;
+padding: 7px 0 7px;
+text-align: center;
+}
+
+#mail .cnt_area .cnt_g .answer_box01 table td{
+width: 50%;
+color: #231815;
+background-color: #fff;
+border:1px solid  #e15082;
+font-family: 'hiraginokaku_w3';
+font-size: 14px;
+line-height: 24px;
+padding: 10px 10px 7px;
+}
+
+#mail .cnt_area h5 {
+width: 100%;
+border-bottom: 1px solid #e15082;
+color: #e15082;
+font-size: 20px;
+letter-spacing: 0.07em;
+font-family: 'hiraginokaku_w6';
+padding: 0 0 15px 0;
+box-sizing: border-box;
+margin: 0 0 20px;
+box-sizing: border-box;
+}
+
+#mail .cnt_area h6 {
+font-family: 'hiraginokaku_w6';
+font-size: 14px;
+letter-spacing: 0.07em;
+margin-bottom: 1em;
+}
+
+#mail .cnt_area .cnt_g .answer_box01 .cnt_box01{
+max-width: 900px;
+background-color: #fff;
+padding: 28px 30px;
+}
+
+#mail .cnt_area .cnt_g02 .answer_box01 .cnt_box01{
+display: none;
+}
+
+
+#mail .cnt_area .cnt_g .answer_box01 .cnt_box01 .box01{
+margin-bottom: 50px;
+}
+#mail .cnt_area .cnt_g .answer_box01 .cnt_box01 .cnt_note01{
+border: 1px dashed  #e15082;
+padding: 20px 25px;
+margin: 0 0 50px;
+}
+
+#mail .cnt_area .cnt_g .answer_box01 .cnt_box01 .cnt_note01 h5{
+color: #e60012;
+border-bottom: none;
+padding: 0;
+}
+
+#mail .cnt_area .cnt_g .answer_box01 .cnt_box01 .cnt_note01 dl dt{
+font-family: 'hiraginokaku_w6';
+color: #e60012;
+}
+#mail .cnt_area .cnt_g .answer_box01 .cnt_box01 .cnt_note01 dl dd{
+margin: 0 0 0 1em;
+}
+
+
+
+#mail .cnt_area .cnt_g .answer_box01 .tab_g01{
+max-width: 900px;
+width: 100%;
+display: flex;
+-webkit-display: flex;
+-moz-display: flex;
+-o-display: flex;
+-ms-display: flex;
+justify-content: space-between;
+-webkit-justify-content: space-between;
+-moz-justify-content: space-between;
+-o-justify-content: space-between;
+-ms-justify-content: space-between;
+margin: 0 auto 10px;
+}
+#mail .cnt_area .cnt_g .answer_box01 .tab_g01 .tab{
+background: url(../../images/disclosure/icon_markon01.png) no-repeat 94.5%;
+max-width: 445px;
+width: 49.4%;
+background-color: #fff;
+border-top: 6px solid  #e15082;
+padding: 20px 53px 10px 20px;
+}
+
+#mail .cnt_area .cnt_g .answer_box01 .tab_g01 .tab.current{
+background: url(../../images/disclosure/icon_markoff01.png) no-repeat 94.5%;
+background-color: #fff;
+}
+
+
+#mail .cnt_area .cnt_g .answer_box01 .tab_g01 .tab:first-child{
+margin-right:10px;
+background-color: #fff;
+}
+
+#mail .cnt_area .cnt_g .answer_box01 .tab_g01 .tab .text_tab01,
+#mail .cnt_area .cnt_g .answer_box01 .tab_g01 .tab .text_tab02{
+font-family: 'hiraginokaku_w6';
+color: #e15082;
+font-size: 18px;
+letter-spacing: 0.07em;
+margin-bottom: 10px;
+}
+
+#mail .cnt_area .cnt_g .answer_box01 .tab p{
+letter-spacing: 0!important;
+}
+
+
+
+
+@media only screen and (max-width:768px){
+	
+/*********************************************************
+	02-04.アクセスマップ
+*********************************************************/
+#access .contents_in{
+width: 96%;
+}
+	
+/*********************************************************
+	02-06.個人情報保護への取り組み
+*********************************************************/
+	
+/*#privacypolicy .contents_in{
+width: 96%;
+}
+*/	
+/*********************************************************
+	02-06.コーポレートガバナンス
+*********************************************************/
+/*#corporate_governance .contents_in{
+width: 96%;
+}*/	
+	
+/*********************************************************
+	03-01.信用情報について
+*********************************************************/
+
+/*********************************************************
+	08.本サイトのご利用にあたって
+*********************************************************/
+#policy .contents_in{
+width: 96%;
+}	
+
+/*********************************************************
+	04-02.郵送による開示手続き
+*********************************************************/
+
+	
+}
+@media only screen and (max-width:640px){
+	
+/*********************************************************
+	02-04.アクセスマップ
+*********************************************************/
+
+#access #cnt_area01 ul {
+max-width: none;
+display: block;
+}
+
+#access #cnt_area01 ul li {
+max-width: none;
+margin: 0 auto 10px;
+}
+
+#access #cnt_area01 ul li a {
+background: url(../../images/about/ico_arrow_right.png) no-repeat 98.8% 89%;
+background-size: 15px auto;
+}
+/*#access #cnt_area02 .h2_pattern01_g h2 {
+width: 100%;
+max-width: 300px;
+background: #13ae67;
+color: #fff;
+font-size: 13px;
+font-family: 'hiraginokaku_w6';
+letter-spacing: 0.15em;
+line-height: 1.2em;
+padding: 4px 0;
+margin: 0 auto;
+text-align: center;
+position: relative;
+z-index: 2;
+}*/
+
+/*#access #cnt_area02 .h2_pattern01_g h2::before, #access #cnt_area02 .h2_pattern01_g h2::after {
+border-top-width: 20px;
+border-bottom-width: 20px;
+}*/
+   
+#access #cnt_area02 p.h2_note01 {
+max-width: none;
+text-align: center;
+font-size: 14px;
+margin: -30px auto 0;
+}
+
+#access h3 {
+font-size: 15px;
+}
+
+/*********************************************************
+	02-06.個人情報保護への取り組み
+*********************************************************/
+	
+#privacypolicy .cnt_area .cnt_g .question_box01{
+font-size: 12px;
+}
+
+#privacypolicy .cnt_area .cnt_g .question_box01 span{
+background-size: 15px auto;
+padding: 11px 0 10px;
+}
+	
+
+#privacypolicy .cnt_area .cnt_g .answer_box01 {
+padding: 20px 10px 10px;
+}
+
+
+#privacypolicy dl dt {
+border-bottom: 1px solid #333;
+}
+
+#privacypolicy dl dd {
+margin: 0 0 30px 0;
+}
+#privacypolicy #cnt_area04 dl.dl_list02 {
+padding: 10px 0 10px 0;
+}
+/*********************************************************
+	02-06.コーポレートガバナンス
+*********************************************************/
+
+#corporate_governance .cnt_area .cnt_g .question_box01{
+font-size: 12px;
+}
+
+#corporate_governance .cnt_area .cnt_g .question_box01 span{
+background-size: 15px auto;
+padding: 11px 0 10px;
+}
+	
+
+#corporate_governance .cnt_area .cnt_g .answer_box01 {
+padding: 20px 10px 10px;
+}
+
+	
+#corporate_governance dl dt {
+border-bottom: 1px solid #333;
+}
+
+#corporate_governance dl dd {
+margin: 0 0 30px 0;
+}
+
+#corporate_governance #cnt_area04 .h2_pattern01_g h2 {
+width: 100%;
+max-width: 300px;
+background: #13ae67;
+color: #fff;
+font-size: 13px;
+font-family: 'hiraginokaku_w6';
+letter-spacing: 0.15em;
+line-height: 1.2em;
+padding: 4px 0;
+margin: 0 auto;
+text-align: center;
+position: relative;
+z-index: 2;
+}
+
+#corporate_governance #cnt_area04 .h2_pattern01_g h2::before, #corporate_governance #cnt_area04 .h2_pattern01_g h2::after {
+border-top-width: 19px;
+border-bottom-width: 19px;
+}
+
+#corporate_governance #cnt_area03 .h2_pattern01_g h2 {
+max-width: 240px;
+}
+
+#corporate_governance #cnt_area05 .h2_pattern01_g h2 {
+max-width: 232px;
+}
+
+/*********************************************************
+03-01.信用情報について
+*********************************************************/
+
+/*********************************************************
+08.本サイトのご利用にあたって
+*********************************************************/
+#policy #cnt_area01 .h2_pattern01_g h2 {
+font-size: 13px;
+max-width: 225px;
+padding: 4px 0;
+}
+
+
+#policy #cnt_area01 .h2_pattern01_g h2::before {
+border-right-width: 13px;
+left: -13px;
+}
+
+#policy #cnt_area01 .h2_pattern01_g h2::after {
+border-left-width: 13px;
+right: -13px;
+}
+#policy #cnt_area01 .h2_pattern01_g h2::before, #policy #cnt_area01 .h2_pattern01_g h2::after {
+border-top-width: 11px;
+border-bottom-width: 10px;
+}
+#policy #cnt_area02 .cnt_g {
+display: block;
+}
+
+/*********************************************************
+	04-02.郵送による開示手続き
+*********************************************************/
+	
+#mail .cnt_area h3 {
+font-size: 13px;
+padding: 0px 0 5px 0;
+}
+	
+#mail #cnt_area02 p {
+font-size: 13px;
+}
+
+#mail .cnt_area .cnt_g .answer_box01 .tab_g01 .tab .text_tab01, #mail .cnt_area .cnt_g .answer_box01 .tab_g01 .tab .text_tab02 {
+font-size: 14px;
+}	
+
+#mail .cnt_area .cnt_g .question_box01{
+font-size: 12px;
+}
+
+#mail  .cnt_area .cnt_g .question_box01 span{
+background-size: 15px auto;
+padding: 11px 0 10px;
+}
+	
+
+#mail  .cnt_area .cnt_g .answer_box01 {
+padding: 10px 0 10px;
+}
+
+
+#mail  dl dt {
+border-bottom: 1px solid #333;
+}
+
+#mail  dl dd {
+margin: 0 0 30px 0;
+}
+
+#mail .cnt_area .cnt_g .answer_box01 .cnt_box01 {
+padding: 20px 10px;
+}
+
+#mail .next_btn {
+width: 79%;
+margin: 50px auto 0;
+}
+
+#mail .next_btn a {
+font-size: 14px;
+letter-spacing: 0.01em;
+padding: 20px 0 25px;
+background-size: 21px auto;
+}
+	
+#mail .next_btn02 {
+width: 79%;
+}
+
+#mail .next_btn02 a {
+font-size: 14px;
+letter-spacing: 0.01em;
+padding: 20px 0 20px;
+background-size: 21px auto;
+}
+
+#mail .cnt_area h4 {
+font-size: 14px;
+margin: 0 0 10px;
+}
+	
+#mail .cnt_area .cnt_g .question_box01 span {
+    background-size: 15px auto;
+    padding: 11px 0 10px;
+}
+#mail .cnt_area .cnt_g .question_box01.current span {
+    background-size: 15px auto;
+    padding: 11px 0 10px;
+}
+	
+#mail .cnt_area .cnt_g .answer_box01 .tab_g01 {
+display: block;
+}
+	
+#mail .cnt_area .cnt_g .answer_box01 .tab_g01 .tab:first-child {
+    margin-right: 0;
+    width: 100%;
+}
+	
+#mail .cnt_area .cnt_g .answer_box01 .tab_g01 .tab {
+max-width: none;
+width: 100%;
+background: url(../../images/disclosure/icon_markon01.png) no-repeat 97.5%;
+background-size: 15px auto;
+background-color: #fff;
+padding: 11px 0 10px;
+
+}
+
+#mail .cnt_area .cnt_g .answer_box01 .tab_g01 .tab.current{
+	background: url(../../images/disclosure/icon_markoff01.png) no-repeat 97.5%;
+    background-size: 15px auto;
+    background-color: #fff;
+    padding: 11px 0 10px;
+}
+	
+#mail .cnt_area h5 {
+font-size: 14px;
+padding: 0 0 5px 0;
+}
+	
+#mail .cnt_area .cnt_g .answer_box01 ul li {
+font-size: 13px;
+}
+	
+#mail .cnt_area .cnt_g .answer_box01 table td {
+font-size: 13px;
+}
+#mail .cnt_area .cnt_g .answer_box01 dl {
+font-size: 13px;
+}
+#mail .cnt_area .text_link a {
+font-size: 13px;
+}
+	
+#mail .cnt_area .cnt_g .answer_box01 .cnt_title02 {
+font-size: 13px;
+}
+	
+#mail .cnt_area .cnt_g .answer_box01 .cnt_title {
+font-size: 13px;
+}
+	
+mail .cnt_area h6 {
+font-size: 13px;
+}
+	
+#mail .cnt_area .cnt_g .question_box01 span::before {
+width: 22px;
+height: 14px;
+}
+	
+#mail #cnt_area02 .cnt_block {
+padding-bottom: 1px;
+}
+
+}

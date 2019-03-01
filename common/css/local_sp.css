@@ -1,0 +1,1167 @@
+@charset "utf-8";
+/* CSS Document */
+/*********************************************************
+目次
+	01.トップページ
+	02.JICCについて
+  02-01.信用情報機関とは
+	02-01-01.指定信用情報機関制度とは？
+	02-02.加盟会員について
+	02-03.会社概要
+	02-03-01.経営理念
+	02-03-02.社長メッセージ
+	02-03-03.株主構成
+	02-03-04.役員一覧
+	02-03-05.沿革
+	02-03-06.組織図
+	02-03-07.決算概況
+	02-05.統計情報
+	03-01. 登録内容と登録期間
+	03-02. 信用情報の安全管理について
+*********************************************************/
+
+
+
+@media only screen and (max-width:1024px){
+/*********************************************************
+	01.トップ
+*********************************************************/
+
+
+/*********************************************************
+	02.JICCについて
+*********************************************************/
+
+#about #cnt_area02 h2{
+font-size: 16px;
+letter-spacing: 0.1em;
+}
+
+/*********************************************************
+	02-01.信用情報機関とは
+*********************************************************/
+
+/*********************************************************
+	02-01-01.指定信用情報機関制度とは？
+*********************************************************/
+
+
+/*********************************************************
+	02-02.加盟会員について
+*********************************************************/
+
+/*********************************************************
+	02-03.会社概要
+*********************************************************/
+
+/*********************************************************
+	02-03-01.経営理念
+*********************************************************/
+
+/*********************************************************
+	02-03-02.社長メッセージ
+*********************************************************/
+
+/*********************************************************
+	02-03-03.株主構成
+*********************************************************/
+
+#stockholder .cnt_area .cnt_text p{
+line-height: 18px;
+padding: 0 10px 15px 0;
+}
+
+/*********************************************************
+	02-03-04.役員一覧
+*********************************************************/
+
+#history #cnt_area02 .cnt_img{
+width: 90%;
+}
+
+/*********************************************************
+	02-03-05.沿革
+*********************************************************/
+
+/*********************************************************
+	02-03-06.組織図
+*********************************************************/
+
+/*********************************************************
+	02-03-07.決算概況
+*********************************************************/
+
+/*********************************************************
+	02-05.統計情報
+*********************************************************/
+
+
+}
+@media only screen and (max-width:768px){
+/*********************************************************
+	01.トップ
+*********************************************************/
+#top #info_area01 li{
+	margin: 0 3px;
+}
+
+
+
+}
+
+@media only screen and (max-width:640px){
+/*********************************************************
+	01.トップ
+*********************************************************/
+
+#top #mainimg_area {
+    height: 498px;
+    margin-bottom: 27px;
+}
+
+.sp-buttons {
+    display: none!important;
+}
+
+#top #mainimg_area .mainimg_text{
+	font-size: 27.5px;
+    line-height: 45px;
+	text-align: center;
+}
+
+#top #mainimg_area .bg_mainimg02 {
+    max-width: 295px;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translateY(-50%) translateX(-50%);
+    transform: translateY(-50%) translateX(-50%);
+}
+
+#top #mainimg_area .mainimg_arrow01{
+	width: 39px;
+	color: #fff;
+	font-family: 'HelveticaNeueLTStd-MdCnO';
+	font-size: 10px;
+	text-align: center;
+	margin: auto;
+	position: absolute;
+	top: 239px;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 1;
+}
+#top #mainimg_area .mainimg_text {
+    font-size: 27.5px;
+    top: 122px;
+}
+
+#top #mainimg_area .mainimg_arrow01 img{
+    width: 100%;
+    height: auto;
+	display: block;
+    margin: 0 0 15px;
+}
+
+#top h2 {
+    font-size: 17px;
+	margin-bottom: 15px;
+}
+#top #info_area01 li {
+    color: #fff;
+    font-family: 'A-OTF-GothicMB101Pro-Medium';
+    font-size: 15px;
+    line-height: 23px;
+    text-align: center;
+    box-sizing: border-box;
+    width: 48.98%;
+    margin: 0 0 7px;
+    padding: 12.5px 17.5px;
+}
+
+#top #info_area01 li .li_box01 {
+	margin: 0 auto;
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+
+#top #info_area01 li img {
+    display: block;
+    margin: 0 auto 10px;
+    width: 100%;
+    max-width: 225px;
+    height: auto;
+}
+
+#top #info_area01 li .li_box02 {
+    margin: 20px auto;
+}
+
+#top #info_area01 {
+	flex-wrap: wrap;
+	-webkit-flex-wrap: wrap;
+	-moz-flex-wrap: wrap;
+	-o-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+    margin: 0 auto 32px;
+}
+
+#top #info_area01 li.btn_mobile01 {
+    background-size: 13.5px auto;
+}
+
+#top #info_area01 li.btn_mail01 {
+    background-size: 13.5px auto;
+}
+
+#top #info_area01 li.btn_madoguchi01 {
+    background-size: 13.5px auto;
+}
+
+#top #info_area01 li.btn_other01 {
+	background: url(../../images/top/img_arrow02.png) no-repeat 98% 98%;
+    background-size: 13.5px auto;
+}
+
+#top #section01 .ul_list03{
+	margin: 0 0 35px;
+}
+
+#top #section01 .ul_list03 li{
+    width: 100%;
+	background: url(../../images/top/img_arrow07.png) no-repeat 96% center;
+	background-size: 6.3px auto;
+    background-color: #f7f8f8;
+    border-top: 5px solid #e60012;
+    color: #e60012;
+    font-family: 'A-OTF-GothicMB101Pro-Medium';
+    font-size: 18px;
+    padding: 13.5px;
+    text-align: left;
+    vertical-align: middle;
+    cursor: pointer;
+    box-sizing: border-box;
+    display: inline-block;
+    margin: 0 10px 0 0;
+}
+
+#top #section01 .ul_list03 li a{
+	width: 100%;
+	color: #e60012;
+	display: inline-block;
+}
+
+#top #section01 .ul_list03 li.li_box03 a{
+	color: #0096fa;
+}
+
+#top #section01 .ul_list03 li.li_box03 {
+	background: url(../../images/top/img_arrow08.png) no-repeat 96% center;
+	background-size: 6.3px auto;
+	background-color: #f7f8f8;
+	border-top: 5px solid #0096fa;
+    color: #0096fa!important;
+}
+
+#top #section02 .ul_list04{
+	display: flex;
+	-webkit-display: flex;
+}
+
+#top #section02 .ul_list04 li{
+    width: 50%;
+	background: url(../../images/top/img_arrow09.png) no-repeat right bottom;
+	background-size: 13.5px auto;
+    color: #fff;
+    font-family: 'A-OTF-GothicMB101Pro-Medium';
+    font-size: 18px;
+	line-height: 25px;
+    padding: 31px 0;
+    text-align: center;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+#top #section02 .ul_list04 li.li_box04{
+	background-color: #13ae67;
+	border: 5px solid #13ae67;
+}
+#top #section02 .ul_list04 li.li_box05{
+	background-color: #0096fa;
+	border: 5px solid #0096fa;
+}
+
+#top #section02 .ul_list04 li a{
+	width: 100%;
+	color: #fff;
+	display: inline-block;
+}
+
+#top #section03 .ul_list05{
+	margin: 0;
+}
+
+#top #section03 .ul_list05 li{
+	width: 100%;
+	background-color: #f7f8f8;
+	font-family: 'hiraginokaku_w6';
+    font-size: 16px;
+    color: #898989;
+	text-align: left;
+}
+
+#top #section03 .ul_list05 li:nth-child(2){
+	background-color: #efefef;
+}
+
+#top #section03 .ul_list05 li a{
+	width: 100%;
+	color: #898989;
+	display: inline-block;
+}
+
+#top #section03 .ul_list05 li .li_box04{
+	display: flex;
+	-webkit-display: flex;
+}
+
+#top #section03 .ul_list05 li .box_txt01{
+	width: 50%;
+	padding: 35px 0 0px 16px;
+	box-sizing: border-box;
+}
+
+#top #section03 .ul_list05 li .box_img01{
+	width: 50%;
+	max-width: 321px;
+	position: relative;
+}
+
+#top #section03 .ul_list05 li .box_img01 .box_arrow01{
+	position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 15px;
+}
+
+#top #section03 .ul_list05 li .box_img01 img{
+	width: 100%;
+	height: auto;
+	display: block;
+}
+
+#top .ul_list02 {
+    max-width: none;
+	margin: 0 auto 23px;
+}
+#top .ul_list02 li{
+    width: 100%;
+}
+
+#top .ul_list02 li img{
+    width: 100%;
+	height: auto;
+	display: block;
+}
+
+#top #section03_sp .ul_list05{
+	margin: 0;
+}
+
+#top #section03_sp .ul_list05 li{
+	width: 100%;
+	background-color: #f7f8f8;
+	font-family: 'hiraginokaku_w6';
+    font-size: 16px;
+    color: #898989;
+	text-align: left;
+}
+
+#top #section03_sp .ul_list05 li:nth-child(2){
+	background-color: #efefef;
+}
+
+#top #section03_sp .ul_list05 li a{
+	width: 100%;
+	color: #898989;
+	display: inline-block;
+}
+
+#top #section03_sp .ul_list05 li .li_box04{
+	display: flex;
+	-webkit-display: flex;
+}
+
+#top #section03_sp .ul_list05 li .box_txt01{
+	width: 50%;
+	padding: 35px 0 0px 16px;
+	box-sizing: border-box;
+}
+
+#top #section03_sp .ul_list05 li .box_img01{
+	width: 50%;
+	max-width: 321px;
+	position: relative;
+}
+
+#top #section03_sp .ul_list05 li .box_img01 .box_arrow01{
+	position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 15px;
+}
+
+#top #section03_sp .ul_list05 li .box_img01 img{
+	width: 100%;
+	height: auto;
+	display: block;
+}
+
+
+
+/*********************************************************
+	02.JICCについて
+*********************************************************/
+
+#about #cnt_area01{
+padding: 35px 0 40px;
+}
+
+#about #cnt_area01 h2{
+font-size: 17px;
+padding: 0 0 15px;
+}
+
+#about #cnt_area01 p{
+font-size: 12px;
+line-height: 20px;
+font-family: 'hiraginokaku_w3';
+letter-spacing: 0.05em;
+}
+
+#about #cnt_area02{
+padding: 5px 0 0;
+}
+
+#about #cnt_area02 .cnt_box{
+margin: 0 1.56% 5px 0;
+/* max-width: 157px; */
+width: 49.22%;
+}
+
+#about #cnt_area02 .cnt_box:nth-child(even){
+margin: 0 0 5px;
+}
+
+#about #cnt_area02 .cnt_box a{
+padding: 20px 0;
+background-size: 10px auto;
+}
+
+#about #cnt_area02 .cnt_img{
+width: 40%;
+padding: 0 0 15px;
+}
+
+#about #cnt_area02 h2{
+font-size: 10px;
+}
+
+#about #cnt_area03 .next_btn{
+width: 79%;
+}
+
+#about #cnt_area03 .next_btn a{
+font-size: 14px;
+letter-spacing: 0.01em;
+padding: 26px 0 25px;
+background-size: 21px auto;
+}
+
+#about #cnt_area03 .cnt_g .question_box01{
+font-size: 12px;
+}
+
+#about #cnt_area03 .cnt_g .question_box01 span{
+background-size: 15px auto;
+padding: 11px 0 10px;
+}
+
+#about #cnt_area03 .cnt_g .answer_box01{
+margin: 0;
+padding: 20px 0;
+}
+
+#about #cnt_area03 .cnt_g .answer_box01 h4{
+font-size: 12px;
+padding: 0 0 10px;
+}
+
+#about #cnt_area03 .cnt_g .answer_box01 p{
+font-size: 12px;
+line-height: 20px;
+}
+
+#about #cnt_area03 .cnt_g .answer_box01 .cnt_img{
+width: 96%;
+margin: 0 auto 30px;
+}
+
+#about #cnt_area03 .cnt_g02 .answer_box01 .cnt_box{
+float: none;
+width: auto;
+margin: 0 auto 40px;
+}
+
+#about #cnt_area03 .cnt_g02 .answer_box01 .cnt_img{
+max-width: 400px;
+margin: 0 auto;
+}
+
+
+/*********************************************************
+	02-01.信用情報機関とは
+*********************************************************/
+
+#whats #cnt_area01 .h2_pattern01_g{
+margin: 0 0 15px;
+}
+
+#whats #cnt_area01 h3{
+font-size: 13px;
+line-height: 20px;
+letter-spacing: 0.01em;
+padding: 0 0 10px;
+}
+
+#whats #cnt_area01 li{
+font-size: 12px;
+line-height: 20px;
+padding: 0 0 20px;
+}
+
+#whats #cnt_area01 ul{
+margin: 0 0 0 5px;
+padding: 0 0 20px;
+}
+
+#whats #cnt_area02 .h2_pattern01_g{
+margin: 0 0 20px;
+}
+
+#whats #cnt_area02 p{
+font-size: 12px;
+line-height: 20px;
+padding: 0 0 15px;
+}
+
+#whats #cnt_area02 .cnt_img{
+width: 95%;
+margin: 0 auto 25px;
+}
+
+#whats #cnt_area02 .next_btn{
+width: 79%;
+}
+
+#whats #cnt_area02 .next_btn a{
+font-size: 14px;
+letter-spacing: 0.01em;
+padding: 26px 0 25px;
+background-size: 21px auto;
+}
+
+
+/*********************************************************
+	02-01-01.指定信用情報機関制度とは？
+*********************************************************/
+
+#about_00 #cnt_area01 .h2_pattern01_g{
+margin: 0 0 10px;
+}
+
+#about_00 .h2_pattern01_g h2{
+max-width: 246px;
+}
+
+#about_00 #cnt_area01{
+padding: 0 0 10px;
+}
+
+#about_00 #cnt_area01 p{
+font-size: 12px;
+line-height: 20px;
+padding: 0 0 15px;
+}
+
+#about_00 #cnt_area01 .text_link{
+text-align: center;
+padding: 0 0 10px;
+line-height: 20px;
+}
+
+#about_00 #cnt_area01 .text_link a{
+font-size: 11px;
+line-height: 17px;
+letter-spacing: -0.01em;
+}
+
+#about_00 #cnt_area01 .text_link span{
+font-size: 10px;
+padding: 5px 0 0;
+}
+
+#about_00 #cnt_area02 .cnt_g .question_box01{
+font-size: 12px;
+}
+
+#about_00 #cnt_area02 .cnt_g .question_box01 span{
+background-size: 15px auto;
+padding: 11px 0 10px;
+}
+
+#about_00 #cnt_area02 .cnt_g .answer_box01{
+margin: 0;
+padding: 20px 0;
+}
+
+#about_00 #cnt_area02 .cnt_g .answer_box01 p{
+font-size: 12px;
+line-height: 20px;
+}
+
+#about_00 #cnt_area02 .cnt_g .answer_box01 ol{
+font-size: 12px;
+line-height: 20px;
+}
+
+
+/*********************************************************
+	02-02.加盟会員について
+*********************************************************/
+#member .cnt_area .h2_pattern01_g{
+margin: 0 0 20px;
+}
+
+#member .cnt_area .h2_pattern01_g h2{
+max-width: 242px;
+}
+
+#member #cnt_area01{
+padding: 0 0 40px;
+}
+
+#member #cnt_area01 p{
+font-size: 12px;
+line-height: 20px;
+}
+
+#member #cnt_area02{
+padding: 0 0 40px;
+}
+
+#member #cnt_area02 p{
+font-size: 12px;
+line-height: 20px;
+padding: 0 0 15px;
+}
+
+#member #cnt_area02 p.first_text{
+padding: 0 0 30px;
+}
+
+#member #cnt_area02 h3, #member #cnt_area03 h3{
+font-size: 15px;
+padding: 0 0 10px 5px;
+}
+
+#member .cnt_area ol{
+font-size: 12px;
+line-height: 20px;
+}
+
+#member #cnt_area03 p{
+font-size: 12px;
+line-height: 20px;
+padding: 0 0 15px;
+}
+
+#member #cnt_area03 ol{
+padding: 0 0 10px;
+}
+
+
+
+
+
+
+
+/*********************************************************
+	02-03.会社概要
+*********************************************************/
+#company .cnt_area .h2_pattern01_g{
+margin: 0 0 10px;
+}
+
+#company #cnt_area01{
+padding: 0 0 40px;
+}
+
+#company #cnt_area01 table{
+font-size: 12px;
+line-height: 20px;
+}
+
+#company #cnt_area01 th{
+width: 25%;
+}
+
+#company #cnt_area01 td{
+padding: 12px 10px 12px 15px;
+}
+
+#company #cnt_area02{
+padding: 0 0 20px;
+}
+
+#company #cnt_area02 p{
+font-size: 12px;
+line-height: 20px;
+}
+
+#company #cnt_area02 h3{
+font-size: 15px;
+padding: 0 0 10px 5px;
+}
+
+#company #cnt_area02 h4{
+font-size: 14px;
+}
+
+#company #cnt_area02 dl{
+margin: 0 0 0 30px;
+font-size: 12px;
+line-height: 20px;
+padding: 0 0 20px;
+}
+
+#company #cnt_area03 .next_btn{
+margin: 0 1% 2%;
+max-width: 225px;
+width: 46%;
+}
+
+#company #cnt_area03 .next_btn a{
+font-size: 12px;
+padding: 20px 0;
+background-size: 10px auto;
+}
+
+
+
+/*********************************************************
+	02-03-01.経営理念
+*********************************************************/
+
+#philosophy .cnt_area .h2_pattern01_g{
+margin: 0 0 10px;
+}
+
+#philosophy .h2_pattern01_g h2{
+max-width: 246px;
+}
+
+#philosophy .cnt_area{
+padding: 0 0 40px;
+}
+
+#philosophy .cnt_area p{
+font-size: 12px;
+line-height: 20px;
+}
+
+#philosophy #cnt_area02 p{
+font-size: 16px;
+line-height: 28px;
+}
+
+#philosophy #cnt_area03 li, #philosophy #cnt_area04 li{
+font-size: 12px;
+line-height: 24px;
+}
+
+#philosophy #cnt_area03 li::before, #philosophy #cnt_area04 li::before{
+font-size: 8px;
+}
+
+/*********************************************************
+	02-03-02.社長メッセージ
+*********************************************************/
+
+#message .cnt_area .h2_pattern01_g{
+margin: 0 0 20px;
+}
+
+#message .cnt_area h3{
+font-size: 14px;
+line-height: 20px;
+padding: 0 0 15px;
+width: 96%;
+margin: 0 auto;
+}
+
+#message .cnt_area p{
+font-size: 12px;
+line-height: 20px;
+}
+
+#message .cnt_area .name_text{
+font-size: 12px;
+line-height: 20px;
+}
+
+/*********************************************************
+	02-03-03.株主構成
+*********************************************************/
+#stockholder .cnt_area .h2_pattern01_g{
+margin: 0 0 20px;
+}
+
+#stockholder .cnt_area .date{
+font-size: 12px;
+line-height: 20px;
+padding: 0 0 15px;
+width: 96%;
+margin: 0 auto;
+}
+
+#stockholder .cnt_area .cnt_text p{
+font-size: 12px;
+line-height: 16px;
+float: none;
+padding: 0 0 12px;
+width: 96%;
+margin: 0 auto;
+}
+
+/*********************************************************
+	02-03-04.役員一覧
+*********************************************************/
+#official .cnt_area .h2_pattern01_g{
+margin: 0 0 20px;
+}
+
+#official .cnt_area .date{
+font-size: 12px;
+line-height: 20px;
+padding: 0 0 10px;
+width: 98%;
+margin: 0 2% 0 0;
+}
+
+#official .cnt_area table{
+font-size: 12px;
+line-height: 20px;
+}
+
+#official .cnt_area th.th01{
+width: 30%;
+}
+
+#official .cnt_area th.th02{
+width: 30%;
+}
+
+#official .cnt_area th.th03{
+width: 40%;
+}
+
+#official .cnt_area .attention_text{
+font-size: 10px;
+line-height: 16px;
+}
+
+/*********************************************************
+	02-03-05.沿革
+*********************************************************/
+#history .cnt_area .h2_pattern01_g{
+margin: 0 0 20px;
+}
+
+#history .cnt_area table{
+font-size: 12px;
+line-height: 20px;
+}
+
+#history .cnt_area th{
+width: 28%;
+}
+
+#history .cnt_area td{
+width: 72%;
+padding: 12px 10px 12px 15px;
+}
+
+#history #cnt_area01{
+padding: 0 0 40px;
+}
+
+#history #cnt_area02 p{
+font-size: 12px;
+line-height: 20px;
+}
+
+#history #cnt_area02 .cnt_img{
+width: 96%;
+}
+
+/*********************************************************
+	02-03-06.組織図
+*********************************************************/
+
+#organization .cnt_area .h2_pattern01_g{
+margin: 0 0 20px;
+}
+
+#organization .cnt_area .date{
+font-size: 12px;
+line-height: 20px;
+padding: 0 0 10px;
+}
+
+#organization #cnt_area01 .cnt_img{
+width: 98%;
+}
+
+/*********************************************************
+	02-03-07.決算概況
+*********************************************************/
+#settlement .cnt_area .h2_pattern01_g{
+margin: 0 0 20px;
+}
+
+#settlement .cnt_area .h2_pattern01_g h2{
+max-width: 242px;
+}
+
+#settlement .cnt_area .first_text{
+font-size: 12px;
+line-height: 18px;
+}
+
+#settlement .cnt_area table{
+font-size: 12px;
+line-height: 20px;
+}
+
+#settlement #cnt_area01 td{
+padding: 12px 5px;
+}
+
+#settlement .cnt_area table .text_indent{
+text-indent: 0;
+}
+
+#settlement #cnt_area01 table .text_indent{
+padding: 12px 5px 12px 14px;
+}
+
+#settlement #cnt_area03 .cnt_g{
+overflow-x: scroll;
+}
+
+#settlement #cnt_area03 table{
+overflow-x: scroll;
+}
+
+#settlement #cnt_area03 th{
+/* padding: 12px 5px; */
+}
+
+#settlement #cnt_area03 td{
+padding: 12px 5px;
+}
+
+/*********************************************************
+	02-05.統計情報
+*********************************************************/
+#statistics .cnt_area .h2_pattern01_g{
+margin: 0 0 20px;
+}
+
+#statistics .cnt_area .date {
+font-size: 12px;
+line-height: 20px;
+padding: 0 0 15px;
+width: 96%;
+margin: 0 auto;
+}
+
+#statistics .cnt_area h3{
+font-size: 15px;
+padding: 0 0 10px 5px;
+}
+
+#statistics .cnt_area h4{
+font-size: 15px;
+}
+
+#statistics .cnt_area h5{
+font-size: 12px;
+}
+
+#statistics .cnt_area table{
+font-size: 12px;
+line-height: 20px;
+}
+
+#statistics #cnt_area01 p{
+font-size: 12px;
+line-height: 22px;
+padding: 0 0 10px;
+}
+
+#statistics #cnt_area01 .cnt_g03 .box_in{
+width: auto;
+margin: 10px 0 0;
+}
+
+#statistics #cnt_area01 .sp_scroll_box{
+overflow-x: scroll;
+}
+
+#statistics #cnt_area01 .sp_scroll_box table{
+overflow-x: scroll;
+max-width: none;
+width: 600px;
+}
+
+	
+#statistics #cnt_area04 .next_btn a {
+font-size: 13px;
+background: url(../../images/about/ico_arrow_right.png) no-repeat 96.8% 94%;
+background-size: 15px auto;
+}
+#statistics #cnt_area04 .next_btn.li_btn01 a {
+padding: 23px 0;
+}
+
+#statistics #cnt_area03 .h2_pattern01_g h2 {
+max-width: 225px;
+}
+
+/*********************************************************
+	03-01. 登録内容と登録期間
+*********************************************************/
+
+#registration #cnt_area02 .under_credit_info .h2_pattern01_g h2 {
+max-width: 220px;
+}
+
+#registration .h2_pattern01_g h2{
+max-width: 246px;
+}
+
+#registration #cnt_area01 .under_credit_info .h2_pattern01_g h2::before {
+border-right: 13px solid #f08300!important;
+}
+
+#registration #cnt_area01 .under_credit_info .h2_pattern01_g h2::after {
+border-left: 14px solid #f08300!important;
+}
+
+#registration .cnt_area02 .cnt_g .question_box01 span{
+font-size: 12px;
+}
+
+#registration .cnt_area02 .cnt_g .question_box01 span {
+background-size: 15px auto;
+padding: 11px 0 10px;
+}
+
+#registration #cnt_area01 p {
+font-size: 12px;
+line-height: 20px;
+}
+
+#registration .cnt_area02 ul {
+font-size: 12px;
+line-height: 20px;
+}
+#registration .cnt_area02 .cnt_g .answer_box01 {
+padding: 20px 10px 20px;
+}
+
+#registration .cnt_area02 .cnt_g table {
+font-size: 12px;
+line-height: 20px;
+}
+	
+#registration .cnt_area02 .cnt_g .answer_box01 h4 {
+font-size: 12px;
+}
+	
+/*********************************************************
+	03-02.信用情報の安全管理について
+*********************************************************/
+#safety_management .cnt_area .h2_pattern01_g{
+margin: 0 0 20px;
+}
+
+#safety_management .h2_pattern01_g h2{
+max-width: 246px;
+}
+
+#safety_management .cnt_area p{
+font-size: 12px;
+line-height: 20px;
+}
+
+#safety_management .cnt_area h3{
+font-size: 15px;
+padding: 0 0 10px 5px;
+margin: 0 0 10px;
+}
+
+#safety_management .cnt_area ul{
+font-size: 12px;
+line-height: 20px;
+}
+
+#safety_management .cnt_area li{
+text-indent: -1em;
+margin: 0 0 0 1em;
+}
+
+#safety_management #cnt_area01 .cnt_img{
+width: 70%;
+margin: 0 auto 20px;
+}
+
+#safety_management #cnt_area01 .cnt_box03 .text01{
+padding: 0 0 15px;
+}
+
+#safety_management #cnt_area01 .cnt_box03 dl{
+font-size: 12px;
+line-height: 20px;
+}
+
+#safety_management #cnt_area01 .cnt_box03 dt{
+float: none;
+}
+
+#safety_management #cnt_area01 .cnt_box03 dd{
+float: none;
+padding: 0 0 10px;
+margin: 0 0 0 1em;
+}
+
+}
+
+@media only screen and (max-width:480px){
+
+
+
+
+}
